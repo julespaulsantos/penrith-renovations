@@ -21,10 +21,10 @@ export default function AboutPage() {
             <div className="h-0.5 w-12 bg-[#c5a059] mx-auto mt-1"></div>
           </div>
           <h1 className="text-4xl sm:text-5xl lg:text-6xl font-bold uppercase tracking-tight text-white mb-6">
-            About <span className="font-light text-zinc-400">Penrith Renovations</span>
+            About <span className="font-light text-zinc-400">NP4 Building Pty Ltd</span>
           </h1>
           <p className="max-w-3xl mx-auto text-base sm:text-lg text-zinc-300 font-light leading-relaxed">
-            A bespoke residential building company dedicated to architectural excellence, craftsmanship, and transparent client relationships across Penrith and Greater Western Sydney.
+            Operating as Penrith Renovations, NP4 Building Pty Ltd is a specialist residential building company dedicated to master-crafted kitchen and luxury bathroom transformations across Western Sydney.
           </p>
         </div>
       </section>
@@ -34,19 +34,19 @@ export default function AboutPage() {
         <div className="grid grid-cols-1 lg:grid-cols-12 gap-12 items-center">
           <div className="lg:col-span-6 space-y-6 text-zinc-800">
             <h2 className="text-3xl sm:text-4xl font-bold uppercase tracking-tight text-zinc-950">
-              Hands-On Leadership <span className="font-light text-zinc-600">On Every Site</span>
+              Kitchen &amp; Bathroom <span className="font-light text-zinc-600">Specialist Leadership</span>
             </h2>
 
             <p className="text-base sm:text-lg leading-relaxed text-zinc-700 font-light">
-              Unlike volume building corporations where you are handed off between sales reps and rotating supervisors, Penrith Renovations was founded on a simple principle: <strong>the director must be on the ground.</strong>
+              Unlike volume building corporations where wet-area renovations are subcontracted out to impersonal third parties, NP4 Building Pty Ltd operates on a core standard: <strong>specialised craftsmanship with the director personally on site daily.</strong>
             </p>
 
             <p className="text-base leading-relaxed text-zinc-700 font-light">
-              Our director, Philmoor Galon, brings over 18 years of residential carpentry and construction experience. Philmoor personally attends initial site feasibility inspections, coordinates engineering specifications, and works side-by-side with our licensed trades throughout construction.
+              Our director, Philmoor Galon, brings over 18 years of specialized carpentry, custom joinery, and residential building experience. Philmoor personally oversees spatial design, structural wall removals to open up kitchens, and double-layer waterproofing applications certified strictly to Australian Standard AS 3740.
             </p>
 
             <p className="text-base leading-relaxed text-zinc-700 font-light">
-              Having lived and worked in the Nepean and Penrith district for his entire career, Philmoor understands local soil profiles, micro-climates, Penrith City Council planning codes, and the unique structural nuances of 1970s&ndash;1990s brick veneer and contemporary estate homes.
+              Having served the Nepean and Penrith communities for years, Philmoor understands the nuances of local homes&mdash;from converting compartmentalized 1980s brick floorplans into expansive open entertainer kitchens, to retrofitting spa-inspired ensuites with curbless showers and heated travertine floors.
             </p>
 
             <div className="pt-4 flex flex-wrap gap-4">
@@ -62,7 +62,7 @@ export default function AboutPage() {
                 <Award className="w-8 h-8 text-[#c5a059]" />
                 <div>
                   <div className="font-bold text-xs uppercase text-zinc-900">Guaranteed Quality</div>
-                  <div className="text-xs text-zinc-500">10-Year Structural Warranty</div>
+                  <div className="text-xs text-zinc-500">10-Year Waterproofing Warranty</div>
                 </div>
               </div>
             </div>
@@ -71,8 +71,8 @@ export default function AboutPage() {
           <div className="lg:col-span-6 relative">
             <div className="aspect-[4/5] rounded overflow-hidden shadow-2xl">
               <img
-                src="https://images.unsplash.com/photo-1504307651254-35680f356dfd?auto=format&fit=crop&w=1200&q=80"
-                alt="Philmoor Galon, Director of Penrith Renovations on site"
+                src="https://images.unsplash.com/photo-1556911220-e15b29be8c8f?auto=format&fit=crop&w=1200&q=80"
+                alt="Philmoor Galon, Director of NP4 Building Pty Ltd overseeing a luxury kitchen build"
                 className="w-full h-full object-cover"
               />
             </div>

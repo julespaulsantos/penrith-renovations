@@ -8,11 +8,11 @@ export default function StressFreeBanner() {
       <div className="max-w-5xl mx-auto flex flex-col md:flex-row items-center justify-between gap-8 text-center md:text-left">
         <div className="max-w-2xl">
           <h2 className="text-xl sm:text-2xl md:text-3xl font-light text-zinc-100 leading-snug">
-            At Penrith Renovations we&apos;re committed to ensuring that your building journey is as{" "}
+            At NP4 Building Pty Ltd we&apos;re committed to ensuring that your kitchen and bathroom renovation is as{" "}
             <strong className="text-white font-bold">stress free</strong> as possible.
           </h2>
           <p className="text-xs sm:text-sm text-zinc-400 mt-2 font-light">
-            Fixed-price contracts, director on-site daily, and prompt, honest communication from start to finish.
+            Fixed-price contracts, dust-controlled home protection, director Philmoor Galon on-site daily, and prompt, honest communication from concept to completion.
           </p>
         </div>
 

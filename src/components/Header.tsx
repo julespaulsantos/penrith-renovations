@@ -25,10 +25,10 @@ export default function Header() {
           <div className="flex items-center gap-6">
             <span className="flex items-center gap-1.5 text-zinc-300">
               <ShieldCheck className="w-3.5 h-3.5 text-[#c5a059]" />
-              NSW Lic #394821C • Master Builders Member
+              NP4 Building Pty Ltd • NSW Lic #394821C
             </span>
             <span className="hidden md:inline text-zinc-400">
-              Servicing Penrith, Glenmore Park, Jordan Springs & Greater Western Sydney
+              Penrith &amp; Western Sydney&apos;s Kitchen &amp; Bathroom Specialists
             </span>
           </div>
           <div className="flex items-center gap-5">
@@ -78,12 +78,12 @@ export default function Header() {
               </span>
             </div>
             <span className="text-[10px] tracking-[0.25em] uppercase text-zinc-400 font-light -mt-0.5">
-              Architectural Builders & Upgrades
+              Kitchen &amp; Bathroom Specialists • NP4 Building Pty Ltd
             </span>
           </Link>
 
           {/* Desktop Nav Links */}
-          <div className="hidden lg:flex items-center gap-8">
+          <div className="hidden lg:flex items-center gap-7">
             <Link
               href="/"
               className="text-sm font-medium tracking-wide uppercase text-zinc-200 hover:text-[#c5a059] transition-colors"
@@ -91,10 +91,16 @@ export default function Header() {
               Home
             </Link>
             <Link
-              href="/about"
-              className="text-sm font-medium tracking-wide uppercase text-zinc-200 hover:text-[#c5a059] transition-colors"
+              href="/services/kitchen-renovations"
+              className="text-sm font-semibold tracking-wide uppercase text-[#c5a059] hover:text-[#dfba70] transition-colors"
             >
-              About
+              Kitchens
+            </Link>
+            <Link
+              href="/services/bathroom-renovations"
+              className="text-sm font-semibold tracking-wide uppercase text-[#c5a059] hover:text-[#dfba70] transition-colors"
+            >
+              Bathrooms
             </Link>
 
             {/* Services Dropdown */}
@@ -107,48 +113,48 @@ export default function Header() {
                 href="/services"
                 className="flex items-center gap-1 text-sm font-medium tracking-wide uppercase text-zinc-200 hover:text-[#c5a059] transition-colors py-2"
               >
-                Services
+                All Services
                 <ChevronDown className="w-3.5 h-3.5 transition-transform duration-200" />
               </Link>
 
               {servicesDropdownOpen && (
-                <div className="absolute top-full left-0 w-64 bg-[#1f2127] border border-[#323640] rounded shadow-2xl py-3 z-50">
-                  <Link
-                    href="/services/home-renovations"
-                    className="block px-4 py-2.5 text-xs uppercase tracking-wider text-zinc-300 hover:text-white hover:bg-[#282b33] transition-colors"
-                  >
-                    Home Renovations
-                  </Link>
-                  <Link
-                    href="/services/home-extensions"
-                    className="block px-4 py-2.5 text-xs uppercase tracking-wider text-zinc-300 hover:text-white hover:bg-[#282b33] transition-colors"
-                  >
-                    Home Extensions
-                  </Link>
+                <div className="absolute top-full left-0 w-72 bg-[#1f2127] border border-[#323640] rounded shadow-2xl py-3 z-50">
                   <Link
                     href="/services/kitchen-renovations"
                     className="block px-4 py-2.5 text-xs uppercase tracking-wider text-zinc-300 hover:text-white hover:bg-[#282b33] transition-colors"
                   >
-                    Kitchen Renovations
+                    Designer Kitchen Renovations
                   </Link>
                   <Link
                     href="/services/bathroom-renovations"
                     className="block px-4 py-2.5 text-xs uppercase tracking-wider text-zinc-300 hover:text-white hover:bg-[#282b33] transition-colors"
                   >
-                    Bathroom Renovations
+                    Luxury Bathroom Renovations
                   </Link>
                   <Link
-                    href="/services/outdoor-living"
+                    href="/services/kitchen-bathroom-packages"
                     className="block px-4 py-2.5 text-xs uppercase tracking-wider text-zinc-300 hover:text-white hover:bg-[#282b33] transition-colors"
                   >
-                    Alfresco & Outdoor
+                    Kitchen &amp; Bath Combo Packages
+                  </Link>
+                  <Link
+                    href="/services/custom-joinery"
+                    className="block px-4 py-2.5 text-xs uppercase tracking-wider text-zinc-300 hover:text-white hover:bg-[#282b33] transition-colors"
+                  >
+                    Custom Joinery &amp; Pantries
+                  </Link>
+                  <Link
+                    href="/services/open-plan-wall-removals"
+                    className="block px-4 py-2.5 text-xs uppercase tracking-wider text-zinc-300 hover:text-white hover:bg-[#282b33] transition-colors"
+                  >
+                    Kitchen Wall Removals
                   </Link>
                   <div className="border-t border-[#2e313b] my-1"></div>
                   <Link
                     href="/services"
                     className="block px-4 py-2 text-xs font-semibold text-[#c5a059] hover:text-[#dfba70] transition-colors"
                   >
-                    View All Services &rarr;
+                    Explore Specialised Services &rarr;
                   </Link>
                 </div>
               )}
@@ -161,10 +167,16 @@ export default function Header() {
               Projects
             </Link>
             <Link
+              href="/about"
+              className="text-sm font-medium tracking-wide uppercase text-zinc-200 hover:text-[#c5a059] transition-colors"
+            >
+              About
+            </Link>
+            <Link
               href="/building-advice"
               className="text-sm font-medium tracking-wide uppercase text-zinc-200 hover:text-[#c5a059] transition-colors"
             >
-              Building Advice
+              Advice
             </Link>
             <Link
               href="/contact"
@@ -216,39 +228,39 @@ export default function Header() {
                 Services
               </span>
               <Link
-                href="/services/home-renovations"
-                onClick={() => setMobileMenuOpen(false)}
-                className="block text-xs uppercase tracking-wide text-zinc-400 hover:text-white py-1"
-              >
-                Home Renovations
-              </Link>
-              <Link
-                href="/services/home-extensions"
-                onClick={() => setMobileMenuOpen(false)}
-                className="block text-xs uppercase tracking-wide text-zinc-400 hover:text-white py-1"
-              >
-                Home Extensions
-              </Link>
-              <Link
                 href="/services/kitchen-renovations"
                 onClick={() => setMobileMenuOpen(false)}
-                className="block text-xs uppercase tracking-wide text-zinc-400 hover:text-white py-1"
+                className="block text-xs uppercase tracking-wide text-zinc-300 hover:text-white py-1 font-semibold"
               >
-                Kitchen Renovations
+                Designer Kitchen Renovations
               </Link>
               <Link
                 href="/services/bathroom-renovations"
                 onClick={() => setMobileMenuOpen(false)}
-                className="block text-xs uppercase tracking-wide text-zinc-400 hover:text-white py-1"
+                className="block text-xs uppercase tracking-wide text-zinc-300 hover:text-white py-1 font-semibold"
               >
-                Bathroom Renovations
+                Luxury Bathroom Renovations
               </Link>
               <Link
-                href="/services/outdoor-living"
+                href="/services/kitchen-bathroom-packages"
                 onClick={() => setMobileMenuOpen(false)}
                 className="block text-xs uppercase tracking-wide text-zinc-400 hover:text-white py-1"
               >
-                Outdoor & Alfresco
+                Kitchen &amp; Bath Combo Packages
+              </Link>
+              <Link
+                href="/services/custom-joinery"
+                onClick={() => setMobileMenuOpen(false)}
+                className="block text-xs uppercase tracking-wide text-zinc-400 hover:text-white py-1"
+              >
+                Custom Joinery &amp; Pantries
+              </Link>
+              <Link
+                href="/services/open-plan-wall-removals"
+                onClick={() => setMobileMenuOpen(false)}
+                className="block text-xs uppercase tracking-wide text-zinc-400 hover:text-white py-1"
+              >
+                Kitchen Wall Removals
               </Link>
             </div>
             <Link

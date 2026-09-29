@@ -1,61 +1,71 @@
 import React from "react";
 import Link from "next/link";
-import { FileText, HelpCircle, AlertTriangle, ShieldCheck, CheckCircle2, ArrowRight } from "lucide-react";
+import { FileText, ShieldCheck, AlertTriangle, Droplets, Sparkles, ArrowRight, CheckCircle2 } from "lucide-react";
 import StressFreeBanner from "@/components/StressFreeBanner";
 
 export const metadata = {
-  title: "Building Advice for Home Owners | Penrith Renovations",
+  title: "Kitchen & Bathroom Building Advice | NP4 Building Pty Ltd",
   description:
-    "Expert building advice for Penrith and Western Sydney homeowners: Council approvals (CDC vs DA), budgeting traps to avoid, and renovation planning tips.",
+    "Expert renovation advice for Penrith homeowners: Bathroom waterproofing standards (AS 3740), kitchen stone safety, structural wall removals, and fixed-price contract protection.",
 };
 
 const adviceTopics = [
   {
-    icon: FileText,
-    title: "Complying Development (CDC) vs Council DA in Penrith",
+    icon: Droplets,
+    title: "Bathroom Waterproofing: Compliance with AS 3740",
     summary:
-      "Understanding whether your extension or renovation can be fast-tracked through a private certifier or requires full Penrith City Council Development Application.",
+      "Over 75% of residential building disputes in NSW stem from defective wet-area waterproofing. How NP4 Building protects your home.",
     content: [
-      "In NSW, many home additions, internal renovations, and patio pavilions qualify for Complying Development (CDC) under State Environmental Planning Policies (SEPP).",
-      "CDC approvals typically take 2-4 weeks, bypassing council planning queues.",
-      "If your property is in a designated bushfire zone (BAL-40/Flame Zone) or heritage conservation precinct, a standard Development Application (DA) with Penrith City Council is usually required.",
-      "At Penrith Renovations, we conduct a free planning certificate check to confirm the fastest and most cost-effective approval pathway for your lot.",
+      "In NSW, bathroom waterproofing must strictly comply with Australian Standard AS 3740 (Waterproofing of domestic wet areas).",
+      "We apply a Class III dual-layer elastomeric polyurethane membrane with bond-breaker tape on all wall-floor junctions, hob transitions, and internal corners.",
+      "Every bathroom completed by NP4 Building Pty Ltd receives photographic verification and a formal 10-year waterproofing warranty certificate.",
+      "All shower floor screeds are laid with precise gradients directing water directly into linear strip drains to eliminate puddling.",
+    ],
+  },
+  {
+    icon: Sparkles,
+    title: "Modern Kitchen Benchtops & The Crystalline Silica Ban",
+    summary:
+      "Understanding safe, compliant, high-performance benchtop materials for your new kitchen.",
+    content: [
+      "As of July 2024, Australia has prohibited the fabrication and installation of engineered stone containing high crystalline silica.",
+      "At NP4 Building Pty Ltd, we partner with premium certified suppliers offering zero-silica mineral surfaces, sintered porcelain (Dekton, Neolith), and sealed natural granite or marble.",
+      "These modern porcelain and zero-silica slabs offer superior heat resistance, scratch protection, and timeless stone veining without health compromises.",
+    ],
+  },
+  {
+    icon: FileText,
+    title: "Removing Walls for an Open-Plan Kitchen",
+    summary:
+      "What is involved when knocking down walls to connect your kitchen to the dining and living room?",
+    content: [
+      "Many 1970s&ndash;1990s homes in Penrith, Jamisontown, and South Penrith have small, boxed-in kitchens separated by load-bearing walls.",
+      "Our licensed builder Philmoor Galon inspects roof trusses and ceiling joists to calculate structural loads accurately.",
+      "We install concealed steel beams (RSJs) to support the roof load, creating a completely flush ceiling and seamless open living space.",
+      "Most internal non-structural alterations do not require a council DA and can proceed immediately under Exempt or Complying Development.",
     ],
   },
   {
     icon: ShieldCheck,
     title: "NSW Home Building Compensation Fund (HBCF) & Licences",
     summary:
-      "Why you should never work with an unverified builder or accept an owner-builder loophole on major works.",
-    content:
-      [
-        "Under NSW law, any residential building work exceeding $20,000 requires Home Building Compensation Fund (HBCF) insurance cover.",
-        "This protects homeowners against non-completion, defective work, or builder insolvency for up to 6 years for major defects and 2 years for other defects.",
-        "Always verify that your builder holds an unrestricted Contractor Licence in Carpentry or General Building. Philmoor Galon holds NP4 Building Pty Ltd Licence #394821C.",
-      ],
+      "Why you should only engage a fully licensed residential builder with active insurance.",
+    content: [
+      "Under NSW law, any residential building or renovation work exceeding $20,000 requires Home Building Compensation Fund (HBCF) insurance cover.",
+      "This protects homeowners against non-completion or defective work for up to 6 years for major defects and 2 years for other defects.",
+      "Always verify that your builder holds an unrestricted Contractor Licence in Carpentry or General Building. Philmoor Galon holds NP4 Building Pty Ltd Licence #394821C.",
+    ],
   },
   {
     icon: AlertTriangle,
     title: "Avoiding the 'Low Tender / High Variation' Trap",
     summary:
-      "Why the cheapest building quote almost always turns out to be the most expensive in the end.",
-    content:
-      [
-        "Some builders deliberately under-quote initial tenders by excluding critical items (such as waste removal, council certifier fees, scaffolding, or electrical upgrades).",
-        "Once demolition has begun and your house is gutted, heavy variations are introduced.",
-        "Our tenders at Penrith Renovations are 100% itemised with transparent prime cost (PC) and provisional sum allowances, ensuring your fixed-price contract stays fixed.",
-      ],
-  },
-  {
-    icon: HelpCircle,
-    title: "Managing Asbestos in Western Sydney Homes",
-    summary:
-      "Safe and certified identification for properties built or altered prior to 1990.",
-    content:
-      [
-        "Many homes in older Penrith suburbs (Kingswood, Jamisontown, South Penrith, Cambridge Park) contain bonded asbestos in eaves, wet area wall linings, or roof sheeting.",
-        "We engage licensed, certified asbestos removal specialists who safely remove, dispose of, and provide official clearance certificates before interior framing commences.",
-      ],
+      "Why cheap kitchen and bathroom quotes end up costing thousands more during demolition.",
+    content: [
+      "Some budget installers deliberately omit plumbing rough-in relocations, sub-floor leveling, electrical circuit upgrades, or waste disposal from initial quotes.",
+      "Once your old kitchen or bathroom is torn out, unexpected 'variations' are introduced.",
+      "Our tenders at NP4 Building Pty Ltd are 100% itemised with transparent PC allowances, guaranteeing your fixed-price contract remains truly fixed.",
+    ],
   },
 ];
 
@@ -67,15 +77,15 @@ export default function BuildingAdvicePage() {
         <div className="max-w-5xl mx-auto text-center">
           <div className="inline-block mb-3">
             <span className="text-xs uppercase tracking-[0.25em] text-[#c5a059] font-semibold">
-              Homeowner Resources
+              Homeowner Knowledge Base
             </span>
             <div className="h-0.5 w-12 bg-[#c5a059] mx-auto mt-1"></div>
           </div>
           <h1 className="text-4xl sm:text-5xl lg:text-6xl font-bold uppercase tracking-tight text-white mb-6">
-            Building Advice <span className="font-light text-zinc-400">for Home Owners</span>
+            Kitchen &amp; Bathroom <span className="font-light text-zinc-400">Renovation Advice</span>
           </h1>
           <p className="max-w-3xl mx-auto text-base sm:text-lg text-zinc-300 font-light leading-relaxed">
-            Essential knowledge to help you navigate your upcoming home renovation, council approvals, and budgeting with confidence and zero stress.
+            Essential guidance on waterproofing compliance, benchtop materials, structural wall removals, and budget protections by <strong className="text-white font-semibold">NP4 Building Pty Ltd</strong>.
           </p>
         </div>
       </section>
@@ -118,10 +128,10 @@ export default function BuildingAdvicePage() {
         <div className="p-8 sm:p-10 bg-[#1f2228] text-white border border-[#323640] flex flex-col md:flex-row items-center justify-between gap-6">
           <div className="space-y-2">
             <h3 className="text-xl font-bold uppercase tracking-wider text-white">
-              Unsure which approvals your property requires?
+              Planning a kitchen or bathroom renovation?
             </h3>
             <p className="text-sm text-zinc-300 font-light">
-              Send us your address and ideas. We will review your zoning and provide practical guidance at no charge.
+              Send us your floorplan or book a free on-site consultation with Philmoor Galon to discuss spatial possibilities and fixed-price estimates.
             </p>
           </div>
 

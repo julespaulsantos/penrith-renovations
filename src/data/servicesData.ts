@@ -11,159 +11,159 @@ export interface ServiceItem {
 
 export const servicesData: ServiceItem[] = [
   {
-    id: "home-renovations",
-    slug: "home-renovations",
-    title: "Home Renovations",
-    shortDesc:
-      "Transforming dated, compartmentalised houses into open, light-filled, functional modern homes.",
-    fullDesc:
-      "Whether your family has outgrown your current layout or you've bought a character property in the Penrith region that needs a complete contemporary update, we handle end-to-end structural and cosmetic renovations. We work with you from concept drawings to council permits through to the final polish.",
-    heroImage:
-      "https://images.unsplash.com/photo-1600585154340-be6161a56a0c?auto=format&fit=crop&w=1200&q=80",
-    features: [
-      "Open-plan living conversions and structural wall removals",
-      "Full internal re-modelling and flow optimisation",
-      "Architectural flooring, lighting, and custom joinery",
-      "Council approval management (DA and Fast-Track CDC)",
-      "Strict fixed-price contract with zero hidden variations",
-    ],
-    processSteps: [
-      {
-        title: "Site Feasibility & Design Review",
-        desc: "We assess your current floor plan, structure, and budget to map out the ideal layout.",
-      },
-      {
-        title: "Fixed-Price Proposal",
-        desc: "A fully itemised, transparent quotation with specified milestones and timeline.",
-      },
-      {
-        title: "Hands-on Master Construction",
-        desc: "Our director is personally on-site managing licensed local Penrith trades daily.",
-      },
-    ],
-  },
-  {
-    id: "home-extensions",
-    slug: "home-extensions",
-    title: "Home Extensions & Additions",
-    shortDesc:
-      "Add substantial living space, extra bedrooms, or a second storey without the stress of moving.",
-    fullDesc:
-      "Avoid the high stamp duty and hassle of selling in Western Sydney. A thoughtfully engineered ground-floor extension or second-storey addition allows you to expand your home to accommodate growing teenagers, multi-generational living, or dedicated work-from-home suites.",
-    heroImage:
-      "https://images.unsplash.com/photo-1600607687939-ce8a6c25118c?auto=format&fit=crop&w=1200&q=80",
-    features: [
-      "Ground floor rear living & master suite extensions",
-      "Second-storey additions engineered to seamlessly match existing rooflines",
-      "Granny flats and luxury guest pavilions",
-      "Structural engineering and foundation reinforcement",
-      "Bushfire (BAL) and flood zoning compliance expertise in Western Sydney",
-    ],
-    processSteps: [
-      {
-        title: "Architectural & Engineering Drawings",
-        desc: "Precision engineering to guarantee structural integrity and seamless roof integration.",
-      },
-      {
-        title: "Council Approvals",
-        desc: "Complete handling of Penrith City Council DA or Private Certifier CDC approvals.",
-      },
-      {
-        title: "Seamless Build",
-        desc: "We enclose and weatherproof the new addition rapidly to minimise disruption to your daily life.",
-      },
-    ],
-  },
-  {
     id: "kitchen-renovations",
     slug: "kitchen-renovations",
     title: "Designer Kitchen Renovations",
     shortDesc:
-      "The heart of your home engineered with culinary ergonomics, premium stone, and bespoke joinery.",
+      "Show-stopping culinary spaces featuring bespoke joinery, statement stone islands, and integrated European appliances.",
     fullDesc:
-      "A great kitchen balances show-stopping aesthetics with durable functionality. We design and build culinary spaces featuring massive statement waterfall islands, hidden walk-in butler's pantries, soft-close Blum hardware, and high-performance European appliances.",
+      "As kitchen renovation specialists, NP4 Building Pty Ltd transforms outdated, boxed-in kitchens into luminous, open-plan culinary hubs. We manage every single trade—from structural wall removals and electrical re-wiring to laser-measured stone fabrication and custom joinery—delivering a seamless, stress-free build.",
     heroImage:
-      "https://images.unsplash.com/photo-1556911220-e15b29be8c8f?auto=format&fit=crop&w=1200&q=80",
+      "https://images.unsplash.com/photo-1556911220-e15b29be8c8f?auto=format&fit=crop&w=1600&q=85",
     features: [
       "Custom 2PAC, Polytec, and natural timber veneer cabinetry",
-      "Engineered stone, porcelain, and natural marble benchtops",
-      "Smart storage solutions, concealed appliance garages & wine bars",
-      "Electrical, LED track illumination & plumbing reconfiguration",
+      "Engineered stone, sintered porcelain, and natural marble waterfall islands",
+      "Concealed butler's pantries, appliance garages, and integrated wine bars",
+      "Structural beam installation for open-plan kitchen integration",
+      "Fixed-price contract with zero hidden variation fees",
     ],
     processSteps: [
       {
-        title: "3D Design & Material Selection",
-        desc: "Visualise your layout in 3D and select premium stones, tapware, and cabinetry finishes.",
+        title: "3D Design & Ergonomics Consultation",
+        desc: "We plan spatial flow, work triangles, and cabinetry storage tailored to how your family cooks and entertains.",
       },
       {
         title: "Demolition & Trade Rough-In",
-        desc: "Careful removal of old cabinets, updating wiring, and precision plumbing rough-ins.",
+        desc: "Precision removal of old cabinetry, structural wall alterations, and rough-ins for power, water, and gas.",
       },
       {
-        title: "Installation & Stone Templating",
-        desc: "Cabinetry installation followed by laser-measured stone fabrication and appliance fitout.",
+        title: "Cabinetry & Laser Stone Fitout",
+        desc: "Installation of custom soft-close joinery followed by laser-templated stone benchtops and appliance commissioning.",
       },
     ],
   },
   {
     id: "bathroom-renovations",
     slug: "bathroom-renovations",
-    title: "Luxury Bathroom Renovations",
+    title: "Luxury Bathroom & Ensuite Renovations",
     shortDesc:
-      "Spa-like sanctuaries featuring frameless glass, freestanding stone baths, and heated floors.",
+      "Hotel-inspired spa sanctuaries with curbless walk-in showers, freestanding baths, and 10-year certified waterproofing.",
     fullDesc:
-      "Turn your morning routine into a relaxing ritual. Our licensed waterproofing specialists and master tilers build bathrooms that stand the test of time, backed by an industry-leading 10-year waterproofing guarantee.",
+      "Turn your bathroom into a private sanctuary. NP4 Building Pty Ltd specialises in bespoke bathroom renovations, master ensuites, and powder rooms throughout Penrith. We pair exquisite artisan tiling with state-of-the-art waterproofing exceeding Australian Standard AS 3740.",
     heroImage:
-      "https://images.unsplash.com/photo-1552321554-5fefe8c9ef14?auto=format&fit=crop&w=1200&q=80",
+      "https://images.unsplash.com/photo-1552321554-5fefe8c9ef14?auto=format&fit=crop&w=1600&q=85",
     features: [
-      "Multi-stage waterproofing certified above Australian Standards (AS 3740)",
+      "Multi-stage certified waterproofing backed by a 10-year written warranty",
       "Curbless walk-in showers with concealed linear strip drains",
-      "Floating timber vanities with recessed LED undermount lighting",
-      "Thermostatic dual showers, freestanding baths, and in-wall cisterns",
+      "Floating timber vanities with stone tops and recessed LED accent lighting",
+      "Under-tile electric floor heating and heated towel rails",
+      "Floor-to-ceiling porcelain, travertine, and zellige tile installation",
     ],
     processSteps: [
       {
-        title: "Concept & Spatial Layout",
-        desc: "Maximising light, ventilation, and movement in your ensuite or family bathroom.",
+        title: "Spatial Planning & Fixture Selection",
+        desc: "Optimising layout for light, ventilation, storage, and premium tapware selections.",
       },
       {
-        title: "Certified Waterproofing",
-        desc: "Double-membrane waterproofing with certificate of compliance before any tile is laid.",
+        title: "Certified Double-Layer Waterproofing",
+        desc: "Strict compliance application with photographic proof and official compliance certificate.",
       },
       {
-        title: "Precision Tiling & Fixtures",
-        desc: "Mitred tile edges, epoxy grouting, and installation of luxury tapware and mirrors.",
+        title: "Master Tiling & Fixture Fitout",
+        desc: "Mitred tile edging, epoxy grouting, frameless glass installation, and luxury tapware fitoff.",
       },
     ],
   },
   {
-    id: "outdoor-living",
-    slug: "outdoor-living",
-    title: "Alfresco & Outdoor Living",
+    id: "kitchen-bathroom-packages",
+    slug: "kitchen-bathroom-packages",
+    title: "Kitchen & Bathroom Combo Packages",
     shortDesc:
-      "Extend your living outdoors with covered architectural alfrescos, BBQ kitchens, and timber decks.",
+      "Maximise value, cohesion, and cost savings by renovating your kitchen and bathrooms simultaneously.",
     fullDesc:
-      "Enjoy the quintessential Australian outdoor lifestyle throughout all seasons. We build custom insulated patio pavilions, timber decking, integrated outdoor kitchens, and motorized louvre pergolas that connect your indoor lounge with the backyard.",
+      "Our most popular renovation option for Penrith homeowners. Renovating your kitchen, main bathroom, ensuite, and laundry in a single synchronized project saves up to 15% on trade mobilization and ensures matching material palettes across your home.",
     heroImage:
-      "https://images.unsplash.com/photo-1600596542815-ffad4c1539a9?auto=format&fit=crop&w=1200&q=80",
+      "https://images.unsplash.com/photo-1600585154526-990dced4db0d?auto=format&fit=crop&w=1600&q=85",
     features: [
-      "Custom insulated pitched and raked patio roofs",
-      "Built-in outdoor kitchens with gas BBQ, rangehood, and bar refrigeration",
-      "Commercial-grade timber decking (Merbau, Blackbutt, or composite Trex)",
-      "Recessed ceiling radiant heaters and ceiling fans for year-round comfort",
+      "Unified material and stone palette connecting kitchen, bathrooms, and laundry",
+      "Synchronised trade scheduling minimising total renovation downtime",
+      "Substantial cost savings on bulk plumbing, electrical, and stone procurement",
+      "Single point of contact: Director Philmoor Galon on site daily",
     ],
     processSteps: [
       {
-        title: "Solar Orientation & Layout",
-        desc: "Positioning rooflines and screening for optimal shade, winter sun, and privacy.",
+        title: "Whole-Home Wet Area Strategy",
+        desc: "Harmonising colours, stones, and hardware across all wet areas simultaneously.",
       },
       {
-        title: "Structural Framework & Roofing",
-        desc: "Heavy-duty structural posts, insulated roofing, and electrical rough-in.",
+        title: "Streamlined Sequential Construction",
+        desc: "Demolition, rough-in, and waterproofing completed in coordinated phases.",
       },
       {
-        title: "Fitout & Outdoor Finishes",
-        desc: "Cabinetry installation, decking, ceiling linings, and ambient evening lighting.",
+        title: "Unified Handover",
+        desc: "Complete multi-room delivery with a single comprehensive warranty pack.",
+      },
+    ],
+  },
+  {
+    id: "custom-joinery",
+    slug: "custom-joinery",
+    title: "Bespoke Joinery & Butler's Pantries",
+    shortDesc:
+      "Tailor-made kitchen cabinetry, walk-in pantries, custom laundry suites, and floating vanities.",
+    fullDesc:
+      "Exceptional kitchens and bathrooms rely on superior cabinetry. NP4 Building Pty Ltd manufactures custom joinery tailored down to the millimetre, incorporating premium Blum soft-close hardware, pull-out pantry larders, and concealed LED illumination.",
+    heroImage:
+      "https://images.unsplash.com/photo-1507089947368-19c1da9775ae?auto=format&fit=crop&w=1600&q=85",
+    features: [
+      "Custom kitchen islands, fluted timber profiles, and breakfast bars",
+      "Integrated butler's pantries with secondary sinks and prep surfaces",
+      "Matching laundry cabinetry with concealed washing machines and linen hampers",
+      "Floating vanity units built to withstand humid bathroom environments",
+    ],
+    processSteps: [
+      {
+        title: "Laser Site Measurement",
+        desc: "Sub-millimetre digital laser measuring ensures flawless fit against existing walls.",
+      },
+      {
+        title: "Precision Joinery Fabrication",
+        desc: "Manufactured using high-moisture resistant board (HMR) and European hardware.",
+      },
+      {
+        title: "Master Installation",
+        desc: "Expert leveling, scribing, and integration with stone benchtops and splashbacks.",
+      },
+    ],
+  },
+  {
+    id: "open-plan-wall-removals",
+    slug: "open-plan-wall-removals",
+    title: "Structural Wall Removals for Kitchens",
+    shortDesc:
+      "Knocking down load-bearing walls to merge dark, isolated kitchens with bright dining and living zones.",
+    fullDesc:
+      "Most older homes in the Penrith district suffer from small, closed-off kitchens. As licensed builders, NP4 Building Pty Ltd calculates structural loads, coordinates engineering certification, and installs flush-mounted steel beams so your new kitchen flows seamlessly into your living areas.",
+    heroImage:
+      "https://images.unsplash.com/photo-1600566753376-12c8ab7fb75b?auto=format&fit=crop&w=1600&q=85",
+    features: [
+      "Structural load-bearing wall removal and steel beam (RSJ) installation",
+      "Engineered certification and council/certifier documentation",
+      "Floor leveling and ceiling patching for seamless open-plan continuity",
+      "Safe, dust-controlled temporary containment screens",
+    ],
+    processSteps: [
+      {
+        title: "Structural Assessment",
+        desc: "Identifying load-bearing walls, roof truss configurations, and plumbing services.",
+      },
+      {
+        title: "Engineered Steel Installation",
+        desc: "Propping ceilings, removing masonry/studs, and securing structural steel lintels.",
+      },
+      {
+        title: "Open-Plan Preparation",
+        desc: "Patching, flush ceiling plastering, and prepping the expanded open footprint for your dream kitchen.",
       },
     ],
   },

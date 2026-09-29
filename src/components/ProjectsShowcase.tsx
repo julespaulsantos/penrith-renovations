@@ -42,12 +42,10 @@ export default function ProjectsShowcase({ limit }: { limit?: number }) {
           {/* Filter Pills */}
           <div className="flex flex-wrap gap-2 text-xs uppercase tracking-wider font-semibold">
             {[
-              { id: "all", label: "All Works" },
-              { id: "renovations", label: "Renovations" },
-              { id: "extensions", label: "Extensions" },
-              { id: "kitchens", label: "Kitchens" },
-              { id: "bathrooms", label: "Bathrooms" },
-              { id: "outdoor", label: "Alfresco" },
+              { id: "all", label: "All Projects" },
+              { id: "kitchens", label: "Designer Kitchens" },
+              { id: "bathrooms", label: "Luxury Bathrooms" },
+              { id: "combos", label: "Kitchen & Bath Combos" },
             ].map((tab) => (
               <button
                 key={tab.id}

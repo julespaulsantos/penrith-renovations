@@ -9,9 +9,9 @@ export default function ContactSection() {
     email: "",
     phone: "",
     suburb: "",
-    service: "home-renovations",
-    budget: "$100k - $250k",
-    timeframe: "3-6 months",
+    service: "kitchen-renovations",
+    budget: "$50k - $100k",
+    timeframe: "1-3 months",
     message: "",
   });
 
@@ -263,11 +263,11 @@ export default function ContactSection() {
                       onChange={handleChange}
                       className="w-full bg-[#252831] border border-[#373c47] px-3 py-2.5 text-xs text-white focus:outline-none focus:border-[#c5a059]"
                     >
-                      <option value="home-renovations">Home Renovation</option>
-                      <option value="home-extensions">Home Extension</option>
-                      <option value="kitchen-renovations">Kitchen Remodel</option>
-                      <option value="bathroom-renovations">Bathroom Luxury</option>
-                      <option value="outdoor-living">Alfresco &amp; Outdoor</option>
+                      <option value="kitchen-renovations">Designer Kitchen Renovation</option>
+                      <option value="bathroom-renovations">Luxury Bathroom Renovation</option>
+                      <option value="kitchen-bathroom-packages">Kitchen &amp; Bath Combo Package</option>
+                      <option value="custom-joinery">Custom Joinery &amp; Pantry</option>
+                      <option value="open-plan-wall-removals">Kitchen Wall Removal / Open-Plan</option>
                     </select>
                   </div>
 
@@ -315,7 +315,7 @@ export default function ContactSection() {
                     name="message"
                     value={formData.message}
                     onChange={handleChange}
-                    placeholder="E.g. We want to remove the wall between our kitchen and lounge, install an island bench and stacker doors leading to our back deck..."
+                    placeholder="E.g. We want to renovate our kitchen with an open-plan island bench and butler's pantry, plus upgrade the master ensuite with a walk-in double shower and freestanding stone bath..."
                     className="w-full bg-[#252831] border border-[#373c47] px-3.5 py-2.5 text-sm text-white placeholder-zinc-500 focus:outline-none focus:border-[#c5a059]"
                   ></textarea>
                 </div>

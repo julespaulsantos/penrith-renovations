@@ -5,9 +5,9 @@ import { ArrowRight, Check } from "lucide-react";
 import StressFreeBanner from "@/components/StressFreeBanner";
 
 export const metadata = {
-  title: "Building & Renovation Services | Penrith Renovations",
+  title: "Kitchen & Bathroom Renovation Services | NP4 Building Pty Ltd",
   description:
-    "Explore our complete range of architectural renovations, ground floor extensions, designer kitchens, luxury bathrooms, and outdoor alfresco pavilions.",
+    "Explore our specialist kitchen and bathroom renovation services across Penrith, Glenmore Park, and Western Sydney: Designer kitchens, spa ensuites, packages, and custom joinery.",
 };
 
 export default function ServicesPage() {
@@ -18,15 +18,15 @@ export default function ServicesPage() {
         <div className="max-w-5xl mx-auto text-center">
           <div className="inline-block mb-3">
             <span className="text-xs uppercase tracking-[0.25em] text-[#c5a059] font-semibold">
-              Tailored Residential Solutions
+              Specialist Wet Area Excellence
             </span>
             <div className="h-0.5 w-12 bg-[#c5a059] mx-auto mt-1"></div>
           </div>
           <h1 className="text-4xl sm:text-5xl lg:text-6xl font-bold uppercase tracking-tight text-white mb-6">
-            Our Building <span className="font-light text-zinc-400">Services</span>
+            Kitchen &amp; Bathroom <span className="font-light text-zinc-400">Services</span>
           </h1>
           <p className="max-w-3xl mx-auto text-base sm:text-lg text-zinc-300 font-light leading-relaxed">
-            From single-room luxury updates to comprehensive whole-home architectural transformations, our team brings precision craftsmanship and personalised care to every build.
+            From bespoke culinary kitchens with waterfall stone islands to hotel-calibre bathroom sanctuaries and combined multi-room packages, NP4 Building Pty Ltd delivers master-crafted excellence across Western Sydney.
           </p>
         </div>
       </section>

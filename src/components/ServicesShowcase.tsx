@@ -11,15 +11,15 @@ export default function ServicesShowcase() {
         <div className="max-w-3xl mb-16">
           <div className="inline-block mb-3">
             <span className="text-xs uppercase tracking-[0.25em] text-[#c5a059] font-semibold">
-              Master Craftsmanship
+              Specialist Craftsmanship
             </span>
             <div className="h-0.5 w-12 bg-[#c5a059] mt-1"></div>
           </div>
           <h2 className="text-3xl sm:text-4xl lg:text-5xl font-bold uppercase tracking-tight text-white">
-            Our <span className="font-light text-zinc-400">Services</span>
+            Kitchen &amp; Bathroom <span className="font-light text-zinc-400">Services</span>
           </h2>
           <p className="text-zinc-400 text-sm sm:text-base mt-4 font-light">
-            Comprehensive residential renovation and building solutions crafted specifically for homes throughout the Penrith and Nepean region.
+            Bespoke culinary kitchens, hotel-calibre bathrooms, and synchronized packages crafted by <strong className="text-white font-semibold">NP4 Building Pty Ltd</strong> across Penrith and Greater Western Sydney.
           </p>
         </div>
 

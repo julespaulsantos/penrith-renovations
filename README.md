@@ -1,58 +1,58 @@
-# Penrith Renovations
+# Penrith Renovations | NP4 Building Pty Ltd
 
-A website for **Penrith Renovations**, modeled after the design language and structure of [McGirr Constructions](https://mcgirrconstructions.com.au/home-renovations/). Built with **React**, **Next.js (App Router)**, **Node.js**, **Tailwind CSS**, and **TypeScript**, ready for **GitHub** version control and **free hosting on Vercel**.
+A modern, high-converting website for **Penrith Renovations** by **NP4 Building Pty Ltd**, specialized in **Kitchen and Bathroom Renovations** across Penrith and Greater Western Sydney. Modeled after the architectural structure and trust elements of [McGirr Constructions](https://mcgirrconstructions.com.au/home-renovations/). Built with **React**, **Next.js (App Router)**, **Node.js**, **Tailwind CSS**, and **TypeScript**, version-controlled on **GitHub** and hosted with continuous deployment on **Vercel**.
 
 ---
 
-## 🌟 Features Modeled After McGirr Constructions
+## 🌟 Key Features & Specialisations
 
 1. **Header & Navigation**:
-   - Clean slate/charcoal header with licensing badge (`NSW Lic #394821C`), phone direct dial, and email.
-   - Dropdown navigation for services (*Home Renovations, Home Extensions, Kitchens, Bathrooms, Outdoor Living*).
+   - Clean slate/charcoal header with licensing badge (`NSW Lic #394821C`), direct dial (`0497 985 592`), and email.
+   - Direct navigation for specialized services (*Kitchen Renovations, Bathroom Renovations, Kitchen & Bath Combos, Custom Joinery, Open-Plan Wall Removals*).
    - Responsive mobile navigation drawer.
 
 2. **Hero Section**:
    - Tagline: *"Penrith & Greater Western Sydney"*
-   - Headline: *"Home Renovation Builder"*
-   - Subtitle: *"Need more space? Want to modernise?"*
-   - Copy: Modeled after McGirr Constructions' architectural renovation narrative.
-   - Trust highlights: Fixed-Price Guarantee, 10-Year Warranty, Director On-Site.
+   - Headline: *"Kitchen & Bathroom Renovations"*
+   - Subtitle: *"Specialist Wet-Area Craftsmanship by NP4 Building Pty Ltd"*
+   - Copy: Focus on bespoke cabinetry, luxury stone benchtops, AS 3740 waterproofed retreats, and licensed structural wall removals.
+   - Trust highlights: Fixed-Price Guarantee, 10-Year Warranty, Director On-Site (Philmoor Galon).
 
 3. **Core Philosophy Banner**:
-   - *"Whether you're dreaming of a modern open-plan kitchen, a luxurious bathroom sanctuary, or a spacious outdoor alfresco living area, we have the expertise and creativity to turn your vision into reality."*
+   - *"Whether you're dreaming of an open-plan chef's kitchen, a hotel-inspired bathroom sanctuary, or a complete wet-area transformation, NP4 Building Pty Ltd has the licensed craftsmanship and design vision to make it a reality."*
 
-4. **"Building Seamless Homes" Section**:
-   - Focus on flow, functionality, open-plan structural wall removals, and architectural collaboration.
+4. **"Crafting Seamless Kitchens & Sanctuary Bathrooms" Section**:
+   - Focus on ergonomic kitchen flow, Australian Standard AS 3740 waterproofing, zero-silica premium stone, and architectural joinery.
 
 5. **"A Collaborative Build Process" (5 Steps)**:
-   - 01. On-Site Consultation & Concept
-   - 02. Design & Approvals (Penrith Council CDC / DA)
-   - 03. Fixed-Price Tender (Zero hidden variations)
-   - 04. Director-Led Construction (Daily on-site supervision by Philmoor Galon)
-   - 05. Handover & 10-Year Warranty
+   - 01. On-Site Consultation & Spatial Vision
+   - 02. Detailed Design & Material Selection (Cabinetry, tile, stone & tapware)
+   - 03. Transparent Fixed-Price Tender (Zero hidden variations)
+   - 04. Director-Led Wet-Area Construction (Daily supervision by Philmoor Galon)
+   - 05. Detailed Handover & 10-Year Waterproofing Warranty
 
-6. **Recent Projects Showcase (4-Column Portfolio Grid)**:
-   - Filterable by *All Works, Renovations, Extensions, Kitchens, Bathrooms, Alfresco*.
-   - Interactive modal popup with high-resolution image carousel, duration, scope, and key highlights.
+6. **Recent Projects Showcase (Interactive Portfolio Grid)**:
+   - Filterable by *All Projects, Designer Kitchens, Luxury Bathrooms, Kitchen & Bath Combos*.
+   - Interactive modal popup with high-resolution Unsplash photography, duration, scope, and key highlights.
 
 7. **"Stress-Free Building Journey" Callout Banner**:
-   - Direct quote banner with immediate *"Get In Touch"* link.
+   - Direct quote banner with immediate *"Get In Touch"* link and direct phone dial to `0497 985 592`.
 
-8. **Interactive Renovation Cost Estimator**:
-   - Allows prospective clients to calculate realistic ballpark budgets based on project type, finish grade (Builder Quality vs. Executive vs. Architectural Luxury), and floor area.
+8. **Interactive Kitchen & Bathroom Cost Estimator**:
+   - Allows prospective clients to calculate realistic ballpark budgets based on project type (Kitchen, Ensuite/Bathroom, Combo, Wall Removal), finish grade (Designer Standard vs. Executive vs. Architectural Luxury), and room size.
 
 9. **Client Testimonials**:
-   - 5-star verified reviews from homeowners in Jamisontown, Glenmore Park, Jordan Springs, and Leonay.
+   - 5-star verified reviews from homeowners across Jamisontown, Glenmore Park, Jordan Springs, and Leonay celebrating kitchen and bathroom transformations.
 
 10. **Consultation Request Form & Node.js API**:
     - Interactive form backed by `/api/contact` on the Node.js server runtime.
 
 11. **Dedicated Pages**:
-    - `/about`: Company story, director profile, licensing, and credentials.
-    - `/services`: Full breakdown of renovation and building solutions.
-    - `/services/[slug]`: Dedicated pages for each specialty.
-    - `/projects`: Complete portfolio gallery.
-    - `/building-advice`: Homeowner guide for Penrith City Council approvals (CDC vs DA), budgeting, and asbestos management.
+    - `/about`: Company story, director profile (Philmoor Galon), NP4 Building Pty Ltd credentials, and licensing.
+    - `/services`: Full breakdown of Kitchen, Bathroom, Combo, Joinery, and Wall Removal solutions.
+    - `/services/[slug]`: Dedicated deep-dive pages for each specialty.
+    - `/projects`: Complete portfolio gallery of kitchen and bathroom transformations.
+    - `/building-advice`: Homeowner guide for Penrith City Council approvals, AS 3740 waterproofing compliance, silica-free benchtops, and structural wall removals.
     - `/contact`: Direct booking page with interactive form.
 
 12. **Local SEO & Schema.org**:

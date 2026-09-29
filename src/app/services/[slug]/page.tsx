@@ -25,9 +25,15 @@ export default async function ServiceDetailPage({ params }: ServicePageProps) {
   }
 
   // Related projects
-  const relatedProjects = projectsData.filter(
-    (p) => p.category === slug || (slug === "home-renovations" && p.category === "renovations")
-  );
+  const relatedProjects = projectsData.filter((p) => {
+    if (slug === "kitchen-renovations" || slug === "custom-joinery" || slug === "open-plan-wall-removals") {
+      return p.category === "kitchens" || p.category === "combos";
+    }
+    if (slug === "bathroom-renovations") {
+      return p.category === "bathrooms" || p.category === "combos";
+    }
+    return true;
+  });
 
   return (
     <main className="pt-24 pb-20 bg-[#faf9f6]">

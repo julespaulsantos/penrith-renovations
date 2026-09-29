@@ -14,7 +14,7 @@ export default function Footer() {
                 PENRITH <span className="text-[#c5a059] font-light">RENOVATIONS</span>
               </span>
               <p className="text-[10px] tracking-[0.25em] uppercase text-zinc-400 font-light">
-                Architectural Builders
+                Kitchen &amp; Bathroom Specialists
               </p>
             </Link>
 
@@ -45,8 +45,8 @@ export default function Footer() {
                 </a>
               </p>
 
-              <p className="text-xs uppercase tracking-widest text-zinc-400 pt-1">
-                NSW Licence No. 394821C
+              <p className="text-xs uppercase tracking-widest text-[#c5a059] font-semibold pt-1">
+                NP4 Building Pty Ltd • Lic #394821C
               </p>
             </div>
           </div>
@@ -54,11 +54,11 @@ export default function Footer() {
           {/* Col 2: Welcome to Penrith Renovations (matches McGirr copy structure) */}
           <div className="space-y-4">
             <h4 className="text-white text-sm font-semibold tracking-widest uppercase">
-              Welcome to Penrith Renovations
+              Kitchen &amp; Bath Specialists
             </h4>
             <div className="w-10 h-0.5 bg-[#c5a059]"></div>
             <p className="text-sm leading-relaxed text-zinc-400">
-              Penrith Renovations is a residential building company working throughout Penrith, Glenmore Park, Jordan Springs, Emu Plains, and the Lower Blue Mountains.
+              Penrith Renovations by NP4 Building Pty Ltd delivers master-crafted kitchen transformations, spa-calibre bathrooms, and open-plan wall removals across Penrith and Greater Western Sydney.
             </p>
             <div className="pt-2">
               <Link
@@ -87,18 +87,8 @@ export default function Footer() {
                 </Link>
               </li>
               <li>
-                <Link href="/services/home-renovations" className="hover:text-white transition-colors">
-                  Home Renovations
-                </Link>
-              </li>
-              <li>
-                <Link href="/services/home-extensions" className="hover:text-white transition-colors">
-                  Home Extensions
-                </Link>
-              </li>
-              <li>
                 <Link href="/services/kitchen-renovations" className="hover:text-white transition-colors">
-                  Kitchen Transformations
+                  Designer Kitchens
                 </Link>
               </li>
               <li>
@@ -107,8 +97,23 @@ export default function Footer() {
                 </Link>
               </li>
               <li>
+                <Link href="/services/kitchen-bathroom-packages" className="hover:text-white transition-colors">
+                  Kitchen &amp; Bath Packages
+                </Link>
+              </li>
+              <li>
+                <Link href="/services/custom-joinery" className="hover:text-white transition-colors">
+                  Custom Joinery &amp; Pantries
+                </Link>
+              </li>
+              <li>
+                <Link href="/services/open-plan-wall-removals" className="hover:text-white transition-colors">
+                  Kitchen Wall Removals
+                </Link>
+              </li>
+              <li>
                 <Link href="/projects" className="hover:text-white transition-colors">
-                  Recent Projects
+                  Completed Projects
                 </Link>
               </li>
               <li>

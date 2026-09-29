@@ -1,42 +1,42 @@
 import React from "react";
 import Link from "next/link";
-import { MessageSquare, FileCheck2, Calculator, HardHat, Sparkles } from "lucide-react";
+import { MessageSquare, Palette, Calculator, ShieldCheck, Sparkles } from "lucide-react";
 
 const steps = [
   {
     number: "01",
     icon: MessageSquare,
-    title: "On-Site Consultation & Concept",
+    title: "On-Site Design & Spatial Review",
     description:
-      "We meet at your home to explore your aspirations, examine the structure, discuss budget parameters, and review potential layout innovations.",
+      "Philmoor visits your home to inspect current plumbing, structural walls, and electrical services, planning optimal work triangles and storage.",
   },
   {
     number: "02",
-    icon: FileCheck2,
-    title: "Design & Approvals",
+    icon: Palette,
+    title: "Stone, Tiles & 3D Plans",
     description:
-      "We coordinate architectural plans, structural engineering, and fast-track Complying Development (CDC) or Penrith City Council DA approvals.",
+      "We help you select stone benchtops, tapware, tile mitres, and custom cabinetry finishes, visualised with detailed layouts.",
   },
   {
     number: "03",
     icon: Calculator,
     title: "Fixed-Price Tender",
     description:
-      "A crystal-clear, fully specified quotation with guaranteed fixed pricing, timeline milestones, and premium PC item allowances.",
+      "A fully itemised proposal with guaranteed fixed pricing, clear milestone dates, and generous fixture allowances.",
   },
   {
     number: "04",
-    icon: HardHat,
-    title: "Director-Led Construction",
+    icon: ShieldCheck,
+    title: "Certified Waterproofing & Trades",
     description:
-      "Philmoor Galon and our trusted team of licensed trades build with meticulous craft, holding weekly site meetings to keep you fully informed.",
+      "NP4 Building Pty Ltd handles structural removals, trade rough-ins, and multi-layer waterproofing certified strictly to AS 3740.",
   },
   {
     number: "05",
     icon: Sparkles,
-    title: "Handover & 10-Yr Warranty",
+    title: "Custom Joinery & Handover",
     description:
-      "A thorough final walk-through, thorough professional clean, certification certificates, and our 10-year structural & waterproofing warranty.",
+      "Laser-templated stone benchtops, custom soft-close cabinetry, appliance commissioning, and our 10-year written warranty.",
   },
 ];
 
@@ -44,25 +44,25 @@ export default function CollaborativeProcess() {
   return (
     <section className="py-24 bg-[#181a1f] text-white border-t border-[#292e37]">
       <div className="max-w-7xl mx-auto px-4 sm:px-8">
-        {/* Section Header modeled after McGirr */}
+        {/* Section Header */}
         <div className="max-w-3xl mb-16">
           <div className="inline-block mb-3">
             <span className="text-xs uppercase tracking-[0.25em] text-[#c5a059] font-semibold">
-              Transparent &amp; Stress-Free
+              The Specialist Roadmap
             </span>
             <div className="h-0.5 w-12 bg-[#c5a059] mt-1"></div>
           </div>
 
           <h2 className="text-3xl sm:text-4xl lg:text-5xl font-bold uppercase tracking-tight text-white mb-6">
-            A Collaborative <span className="font-light text-zinc-400">Build Process</span>
+            A Collaborative <span className="font-light text-zinc-400">Renovation Process</span>
           </h2>
 
           <div className="space-y-4 text-zinc-300 font-light text-base sm:text-lg leading-relaxed">
             <p>
-              We believe that renovating your home should be an empowering, collaborative journey. Our dedicated team works closely with you every step of the way, providing the clear options and transparent advice you need to make informed decisions while remaining true to your vision and budget.
+              Renovating wet areas like kitchens and bathrooms requires flawless trade coordination and uncompromising waterproofing. At <strong className="text-white font-semibold">NP4 Building Pty Ltd</strong>, we work hand-in-hand with you to choose durable materials and optimize ergonomics while protecting your budget.
             </p>
             <p>
-              Our director, Philmoor Galon, takes a genuinely hands-on approach to every renovation &mdash; being actively involved from preliminary design through on-site framing to final finishing. Regular site meetings and real-time communication ensure your expectations are consistently exceeded.
+              Our director, <strong className="text-white font-semibold">Philmoor Galon</strong>, takes a hands-on approach to every build &mdash; personally overseeing structural framing, plumbing pressure tests, waterproofing inspections, and stone templating to guarantee perfection.
             </p>
           </div>
         </div>
@@ -102,10 +102,10 @@ export default function CollaborativeProcess() {
         <div className="mt-14 p-8 bg-[#22262e] border border-[#373e4b] flex flex-col sm:flex-row items-center justify-between gap-6">
           <div>
             <h4 className="text-lg font-bold text-white uppercase tracking-wider">
-              Have existing plans or just getting started?
+              Ready to upgrade your kitchen or bathroom?
             </h4>
             <p className="text-sm text-zinc-400 mt-1">
-              Philmoor is happy to review your floorplans or visit your property for a complimentary feasibility appraisal.
+              Philmoor is happy to review your ideas, layout options, or visit your property for a complimentary on-site feasibility appraisal.
             </p>
           </div>
           <Link

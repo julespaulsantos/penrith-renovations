@@ -11,23 +11,24 @@ const plusJakartaSans = Plus_Jakarta_Sans({
 });
 
 export const metadata: Metadata = {
-  title: "Penrith Renovations | Expert Home Renovation Builders Penrith & Western Sydney",
+  title: "Penrith Renovations | Kitchen & Bathroom Specialists | NP4 Building Pty Ltd",
   description:
-    "Penrith Renovations are expert renovation builders delivering high-quality home upgrades, extensions, kitchens, bathrooms, and architectural transformations across Penrith, Glenmore Park, Jordan Springs, and Western Sydney.",
+    "NP4 Building Pty Ltd are specialist kitchen and bathroom renovation builders in Penrith, Glenmore Park, and Western Sydney. Bespoke cabinetry, statement stone islands, and luxury spa ensuites led by Philmoor Galon.",
   keywords: [
-    "Penrith Renovations",
-    "Home renovation builders Penrith",
-    "Builders Glenmore Park",
-    "Home extensions Western Sydney",
     "Kitchen renovations Penrith",
     "Bathroom renovations Penrith",
-    "Architectural renovations NSW",
+    "NP4 Building Pty Ltd",
+    "Kitchen builders Western Sydney",
+    "Luxury bathroom renovations Glenmore Park",
+    "Custom kitchen joinery Penrith",
+    "Ensuite renovations Jordan Springs",
+    "Kitchen wall removal Penrith",
   ],
-  authors: [{ name: "Penrith Renovations" }],
+  authors: [{ name: "NP4 Building Pty Ltd" }],
   openGraph: {
-    title: "Penrith Renovations | Expert Home Renovation Builders",
+    title: "Penrith Renovations | Kitchen & Bathroom Specialists",
     description:
-      "Transform your space with expert home renovation builders in Penrith & Western Sydney. Personalised director-led service from concept to completion.",
+      "Transform your kitchen and bathroom with NP4 Building Pty Ltd. Personalised director-led service from concept to completion across Penrith and Western Sydney.",
     url: "https://penrithrenovations.com.au",
     siteName: "Penrith Renovations",
     locale: "en_AU",
@@ -35,9 +36,9 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: "summary_large_image",
-    title: "Penrith Renovations | Architectural Builders",
+    title: "Penrith Renovations | Kitchen & Bathroom Specialists",
     description:
-      "High-end home renovations, extensions, kitchens, and bathrooms in Penrith and Western Sydney.",
+      "Bespoke designer kitchens and luxury bathroom sanctuaries by NP4 Building Pty Ltd in Penrith and Western Sydney.",
   },
 };
 
@@ -50,7 +51,7 @@ export default function RootLayout({
     "@context": "https://schema.org",
     "@type": "HomeAndConstructionBusiness",
     name: "Penrith Renovations",
-    image: "https://images.unsplash.com/photo-1600585154340-be6161a56a0c?auto=format&fit=crop&w=1200&q=80",
+    image: "https://images.unsplash.com/photo-1556911220-e15b29be8c8f?auto=format&fit=crop&w=1200&q=80",
     telephone: "0497 985 592",
     priceRange: "$$",
     address: {
