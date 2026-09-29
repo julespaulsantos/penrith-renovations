@@ -40,11 +40,11 @@ export default function Header() {
               info@penrithrenovations.com.au
             </a>
             <a
-              href="tel:0488921345"
+              href="tel:0497985592"
               className="flex items-center gap-1.5 font-semibold text-white hover:text-[#c5a059] transition-colors"
             >
               <Phone className="w-3.5 h-3.5 text-[#c5a059]" />
-              0488 921 345
+              0497 985 592
             </a>
             <a
               href="https://instagram.com"
@@ -275,11 +275,11 @@ export default function Header() {
 
             <div className="pt-4 border-t border-[#262830] flex flex-col gap-3">
               <a
-                href="tel:0488921345"
+                href="tel:0497985592"
                 className="flex items-center justify-center gap-2 text-center bg-[#252830] text-white py-2.5 text-xs uppercase tracking-wider font-semibold"
               >
                 <Phone className="w-4 h-4 text-[#c5a059]" />
-                Call 0488 921 345
+                Call 0497 985 592
               </a>
               <Link
                 href="/contact"

@@ -71,7 +71,7 @@ export default function ContactSection() {
                 Start Your <span className="font-light text-zinc-400">Project</span>
               </h2>
               <p className="text-sm text-zinc-300 font-light leading-relaxed">
-                Whether you have architectural plans ready to quote or are simply exploring possibilities for your Penrith home, Marcus and our team look forward to discussing your vision.
+                Whether you have architectural plans ready to quote or are simply exploring possibilities for your Penrith home, Philmoor and our team look forward to discussing your vision.
               </p>
             </div>
 
@@ -85,12 +85,12 @@ export default function ContactSection() {
                     Direct Builder Line
                   </span>
                   <a
-                    href="tel:0488921345"
+                    href="tel:0497985592"
                     className="text-lg font-bold text-white hover:text-[#c5a059] transition-colors"
                   >
-                    0488 921 345
+                    0497 985 592
                   </a>
-                  <p className="text-xs text-zinc-400">Speak directly with Director Marcus Vance</p>
+                  <p className="text-xs text-zinc-400">Speak directly with Director Philmoor Galon</p>
                 </div>
               </div>
 
@@ -134,7 +134,7 @@ export default function ContactSection() {
                     Licence &amp; Compliance
                   </span>
                   <p className="text-sm text-zinc-300">
-                    NSW Contractor Licence No. 394821C
+                    NP4 Building Pty Ltd Licence No. 394821C
                   </p>
                   <p className="text-xs text-zinc-400">Fully insured with Home Building Compensation Fund (HBCF)</p>
                 </div>
@@ -153,7 +153,7 @@ export default function ContactSection() {
                   Consultation Request Received
                 </h3>
                 <p className="text-sm text-zinc-300 max-w-md mx-auto leading-relaxed">
-                  Thank you, <strong className="text-white">{formData.name}</strong>. Marcus Vance has received your project details and will call you within 24 hours to arrange your on-site walkthrough.
+                  Thank you, <strong className="text-white">{formData.name}</strong>. Philmoor Galon has received your project details and will call you within 24 hours to arrange your on-site walkthrough.
                 </p>
                 <div className="pt-4">
                   <button

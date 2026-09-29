@@ -5,7 +5,7 @@ import StressFreeBanner from "@/components/StressFreeBanner";
 export const metadata = {
   title: "Contact Us & Book Free Site Consultation | Penrith Renovations",
   description:
-    "Contact Penrith Renovations to discuss your home renovation, extension, kitchen, or bathroom project. Call Marcus on 0488 921 345 or request an on-site consultation.",
+    "Contact Penrith Renovations to discuss your home renovation, extension, kitchen, or bathroom project. Call Philmoor on 0497 985 592 or request an on-site consultation.",
 };
 
 export default function ContactPage() {
@@ -24,7 +24,7 @@ export default function ContactPage() {
             Contact &amp; <span className="font-light text-zinc-400">Consultation</span>
           </h1>
           <p className="max-w-3xl mx-auto text-base sm:text-lg text-zinc-300 font-light leading-relaxed">
-            Ready to bring your home vision to life? Contact our director Marcus Vance directly or complete the form below to book your free on-site feasibility inspection.
+            Ready to bring your home vision to life? Contact our director Philmoor Galon directly or complete the form below to book your free on-site feasibility inspection.
           </p>
         </div>
       </section>

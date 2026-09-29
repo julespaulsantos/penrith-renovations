@@ -13,7 +13,7 @@ export async function POST(request: Request) {
       );
     }
 
-    // In production, you can forward this to Resend, SendGrid, or direct email to Marcus:
+    // In production, you can forward this to Resend, SendGrid, or direct email to Philmoor:
     console.log("=== NEW CONSULTATION REQUEST RECEIVED ===");
     console.log("Name:", name);
     console.log("Email:", email);
@@ -29,14 +29,14 @@ export async function POST(request: Request) {
       {
         success: true,
         message:
-          "Thank you for contacting Penrith Renovations. Marcus will be in touch within 24 hours to schedule your on-site consultation.",
+          "Thank you for contacting Penrith Renovations. Philmoor will be in touch within 24 hours to schedule your on-site consultation.",
       },
       { status: 200 }
     );
   } catch (error) {
     console.error("Error processing contact form:", error);
     return NextResponse.json(
-      { error: "Internal server error. Please call us directly on 0488 921 345." },
+      { error: "Internal server error. Please call us directly on 0497 985 592." },
       { status: 500 }
     );
   }

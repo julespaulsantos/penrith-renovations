@@ -28,7 +28,7 @@ A website for **Penrith Renovations**, modeled after the design language and str
    - 01. On-Site Consultation & Concept
    - 02. Design & Approvals (Penrith Council CDC / DA)
    - 03. Fixed-Price Tender (Zero hidden variations)
-   - 04. Director-Led Construction (Daily on-site supervision by Marcus Vance)
+   - 04. Director-Led Construction (Daily on-site supervision by Philmoor Galon)
    - 05. Handover & 10-Year Warranty
 
 6. **Recent Projects Showcase (4-Column Portfolio Grid)**:

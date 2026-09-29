@@ -31,7 +31,7 @@ const adviceTopics = [
       [
         "Under NSW law, any residential building work exceeding $20,000 requires Home Building Compensation Fund (HBCF) insurance cover.",
         "This protects homeowners against non-completion, defective work, or builder insolvency for up to 6 years for major defects and 2 years for other defects.",
-        "Always verify that your builder holds an unrestricted Contractor Licence in Carpentry or General Building. Marcus Vance holds NSW Contractor Licence #394821C.",
+        "Always verify that your builder holds an unrestricted Contractor Licence in Carpentry or General Building. Philmoor Galon holds NP4 Building Pty Ltd Licence #394821C.",
       ],
   },
   {
@@ -129,7 +129,7 @@ export default function BuildingAdvicePage() {
             href="/contact"
             className="shrink-0 bg-[#c5a059] hover:bg-[#b08b47] text-zinc-950 font-bold px-8 py-4 uppercase text-xs tracking-widest transition-colors flex items-center gap-2"
           >
-            <span>Ask Marcus Directly</span>
+            <span>Ask Philmoor Directly</span>
             <ArrowRight className="w-4 h-4" />
           </Link>
         </div>

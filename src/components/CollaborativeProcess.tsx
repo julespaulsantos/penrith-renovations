@@ -29,7 +29,7 @@ const steps = [
     icon: HardHat,
     title: "Director-Led Construction",
     description:
-      "Marcus Vance and our trusted team of licensed trades build with meticulous craft, holding weekly site meetings to keep you fully informed.",
+      "Philmoor Galon and our trusted team of licensed trades build with meticulous craft, holding weekly site meetings to keep you fully informed.",
   },
   {
     number: "05",
@@ -62,7 +62,7 @@ export default function CollaborativeProcess() {
               We believe that renovating your home should be an empowering, collaborative journey. Our dedicated team works closely with you every step of the way, providing the clear options and transparent advice you need to make informed decisions while remaining true to your vision and budget.
             </p>
             <p>
-              Our director, Marcus Vance, takes a genuinely hands-on approach to every renovation &mdash; being actively involved from preliminary design through on-site framing to final finishing. Regular site meetings and real-time communication ensure your expectations are consistently exceeded.
+              Our director, Philmoor Galon, takes a genuinely hands-on approach to every renovation &mdash; being actively involved from preliminary design through on-site framing to final finishing. Regular site meetings and real-time communication ensure your expectations are consistently exceeded.
             </p>
           </div>
         </div>
@@ -105,7 +105,7 @@ export default function CollaborativeProcess() {
               Have existing plans or just getting started?
             </h4>
             <p className="text-sm text-zinc-400 mt-1">
-              Marcus is happy to review your floorplans or visit your property for a complimentary feasibility appraisal.
+              Philmoor is happy to review your floorplans or visit your property for a complimentary feasibility appraisal.
             </p>
           </div>
           <Link

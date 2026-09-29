@@ -93,7 +93,7 @@ export default function SeamlessHomes() {
                 Director-Led Supervision
               </div>
               <div className="text-xs text-zinc-300 mt-2">
-                Every project is directly overseen on site by licensed builder Marcus Vance.
+                Every project is directly overseen on site by licensed builder Philmoor Galon.
               </div>
             </div>
           </div>

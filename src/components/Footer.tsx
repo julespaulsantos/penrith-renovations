@@ -27,11 +27,11 @@ export default function Footer() {
 
               <p>
                 <a
-                  href="tel:0488921345"
+                  href="tel:0497985592"
                   className="text-white hover:text-[#c5a059] font-medium transition-colors flex items-center gap-2"
                 >
                   <Phone className="w-4 h-4 text-[#c5a059]" />
-                  0488 921 345
+                  0497 985 592
                 </a>
               </p>
 

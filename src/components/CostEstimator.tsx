@@ -85,7 +85,7 @@ export default function CostEstimator() {
               </div>
               <div className="flex items-start gap-3 text-xs text-zinc-300">
                 <Check className="w-4 h-4 text-[#c5a059] shrink-0 mt-0.5" />
-                <span>Every formal quote from Marcus is fixed-price with zero hidden surprises.</span>
+                <span>Every formal quote from Philmoor is fixed-price with zero hidden surprises.</span>
               </div>
             </div>
           </div>

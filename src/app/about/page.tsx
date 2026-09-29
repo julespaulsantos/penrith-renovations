@@ -5,7 +5,7 @@ import { ShieldCheck, Award, Users, CheckCircle, ArrowRight, Phone } from "lucid
 export const metadata = {
   title: "About Us | Penrith Renovations",
   description:
-    "Learn about Penrith Renovations, our hands-on director Marcus Vance, and our commitment to luxury home transformations in Western Sydney.",
+    "Learn about Penrith Renovations, our hands-on director Philmoor Galon, and our commitment to luxury home transformations in Western Sydney.",
 };
 
 export default function AboutPage() {
@@ -42,19 +42,19 @@ export default function AboutPage() {
             </p>
 
             <p className="text-base leading-relaxed text-zinc-700 font-light">
-              Our director, Marcus Vance, brings over 18 years of residential carpentry and construction experience. Marcus personally attends initial site feasibility inspections, coordinates engineering specifications, and works side-by-side with our licensed trades throughout construction.
+              Our director, Philmoor Galon, brings over 18 years of residential carpentry and construction experience. Philmoor personally attends initial site feasibility inspections, coordinates engineering specifications, and works side-by-side with our licensed trades throughout construction.
             </p>
 
             <p className="text-base leading-relaxed text-zinc-700 font-light">
-              Having lived and worked in the Nepean and Penrith district for his entire career, Marcus understands local soil profiles, micro-climates, Penrith City Council planning codes, and the unique structural nuances of 1970s&ndash;1990s brick veneer and contemporary estate homes.
+              Having lived and worked in the Nepean and Penrith district for his entire career, Philmoor understands local soil profiles, micro-climates, Penrith City Council planning codes, and the unique structural nuances of 1970s&ndash;1990s brick veneer and contemporary estate homes.
             </p>
 
             <div className="pt-4 flex flex-wrap gap-4">
               <div className="p-4 bg-white border border-zinc-200 shadow-sm flex items-center gap-3">
                 <ShieldCheck className="w-8 h-8 text-[#c5a059]" />
                 <div>
-                  <div className="font-bold text-xs uppercase text-zinc-900">NSW Licence</div>
-                  <div className="text-xs text-zinc-500">Contractor #394821C</div>
+                  <div className="font-bold text-xs uppercase text-zinc-900">Builder Licence</div>
+                  <div className="text-xs text-zinc-500">NP4 Building Pty Ltd #394821C</div>
                 </div>
               </div>
 
@@ -72,7 +72,7 @@ export default function AboutPage() {
             <div className="aspect-[4/5] rounded overflow-hidden shadow-2xl">
               <img
                 src="https://images.unsplash.com/photo-1504307651254-35680f356dfd?auto=format&fit=crop&w=1200&q=80"
-                alt="Marcus Vance, Director of Penrith Renovations on site"
+                alt="Philmoor Galon, Director of Penrith Renovations on site"
                 className="w-full h-full object-cover"
               />
             </div>
@@ -129,7 +129,7 @@ export default function AboutPage() {
               href="/contact"
               className="inline-flex items-center gap-3 bg-[#c5a059] hover:bg-[#b08b47] text-zinc-950 font-bold px-8 py-4 uppercase text-xs tracking-widest transition-colors"
             >
-              <span>Speak With Marcus Directly</span>
+              <span>Speak With Philmoor Directly</span>
               <ArrowRight className="w-4 h-4" />
             </Link>
           </div>

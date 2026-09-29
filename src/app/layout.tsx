@@ -51,7 +51,7 @@ export default function RootLayout({
     "@type": "HomeAndConstructionBusiness",
     name: "Penrith Renovations",
     image: "https://images.unsplash.com/photo-1600585154340-be6161a56a0c?auto=format&fit=crop&w=1200&q=80",
-    telephone: "0488 921 345",
+    telephone: "0497 985 592",
     priceRange: "$$",
     address: {
       "@type": "PostalAddress",

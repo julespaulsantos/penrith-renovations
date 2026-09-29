@@ -17,7 +17,7 @@ export const testimonialsData: Testimonial[] = [
     rating: 5,
     date: "November 2025",
     review:
-      "Marcus and the team at Penrith Renovations completely transformed our cramped 1980s layout into an entertainer's dream. Marcus was on site nearly every day, keeping us constantly updated. The attention to detail on the custom joinery and structural beams was incredible. No hidden variations, finished right on the agreed timeline!",
+      "Philmoor and the team at Penrith Renovations completely transformed our cramped 1980s layout into an entertainer's dream. Philmoor was on site nearly every day, keeping us constantly updated. The attention to detail on the custom joinery and structural beams was incredible. No hidden variations, finished right on the agreed timeline!",
   },
   {
     id: "2",

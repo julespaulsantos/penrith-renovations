@@ -62,11 +62,11 @@ export default async function ServiceDetailPage({ params }: ServicePageProps) {
               Book Site Feasibility
             </Link>
             <a
-              href="tel:0488921345"
+              href="tel:0497985592"
               className="bg-white/10 hover:bg-white/20 text-white border border-white/20 px-6 py-3.5 uppercase text-xs tracking-widest transition-all flex items-center gap-2"
             >
               <Phone className="w-4 h-4 text-[#c5a059]" />
-              0488 921 345
+              0497 985 592
             </a>
           </div>
         </div>
@@ -133,7 +133,7 @@ export default async function ServiceDetailPage({ params }: ServicePageProps) {
                   <strong className="text-white block uppercase tracking-wider mb-0.5">
                     Director Hands-On Daily
                   </strong>
-                  Marcus Vance personally inspects and oversees works on site each day.
+                  Philmoor Galon personally inspects and oversees works on site each day.
                 </div>
               </div>
             </div>
