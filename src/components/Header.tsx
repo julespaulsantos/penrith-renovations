@@ -2,7 +2,7 @@
 
 import React, { useState, useEffect } from "react";
 import Link from "next/link";
-import { Phone, Mail, Menu, X, ChevronDown, Hammer, ShieldCheck } from "lucide-react";
+import { Phone, Mail, Menu, X, ChevronDown, ShieldCheck } from "lucide-react";
 
 export default function Header() {
   const [isScrolled, setIsScrolled] = useState(false);

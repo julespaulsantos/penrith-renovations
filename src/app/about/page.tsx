@@ -1,6 +1,6 @@
 import React from "react";
 import Link from "next/link";
-import { ShieldCheck, Award, Users, CheckCircle, ArrowRight, Phone } from "lucide-react";
+import { ShieldCheck, Award, ArrowRight } from "lucide-react";
 
 export const metadata = {
   title: "About Us | Penrith Renovations",

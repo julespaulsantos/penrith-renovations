@@ -1,7 +1,7 @@
 "use client";
 
 import React, { useState } from "react";
-import { Phone, Mail, MapPin, Clock, ShieldCheck, CheckCircle2, Send, AlertCircle } from "lucide-react";
+import { Phone, Mail, MapPin, ShieldCheck, CheckCircle2, Send, AlertCircle } from "lucide-react";
 
 export default function ContactSection() {
   const [formData, setFormData] = useState({

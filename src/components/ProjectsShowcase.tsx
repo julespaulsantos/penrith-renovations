@@ -203,7 +203,10 @@ export default function ProjectsShowcase({ limit }: { limit?: number }) {
                     </div>
                     <div className="w-px h-6 bg-[#383e4a]"></div>
                     <div>
-                      <span className="text-zinc-400 block text-[10px] uppercase">Completed</span>
+                      <span className="text-zinc-400 block text-[10px] uppercase flex items-center gap-1">
+                        <Calendar className="w-3 h-3 text-[#c5a059]" />
+                        Completed
+                      </span>
                       <span className="text-white font-bold">{activeModalProject.stats.completedYear}</span>
                     </div>
                   </div>
