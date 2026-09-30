@@ -38,7 +38,7 @@ export default function Hero() {
   }, []);
 
   return (
-    <section className="relative min-h-[92vh] lg:min-h-screen flex items-center justify-center pt-24 pb-16 overflow-hidden bg-[#FAF7F2]">
+    <section className="relative min-h-[92vh] lg:min-h-screen flex flex-col justify-center items-center pt-32 pb-14 sm:pt-36 sm:pb-16 overflow-hidden bg-[#FAF7F2]">
       {/* Background Slideshow with smooth transition */}
       {heroSlides.map((slide, index) => (
         <div
@@ -68,83 +68,83 @@ export default function Hero() {
       </div>
 
       {/* Content Container - Centered Frosted Glass Architectural Panel */}
-      <div className="relative max-w-5xl mx-auto px-4 sm:px-6 text-center text-[#183324] z-10 my-auto">
-        <div className="bg-[#FAF7F2]/90 backdrop-blur-md border border-[#E2DDD5] rounded-2xl p-6 sm:p-10 md:p-12 shadow-2xl">
+      <div className="relative max-w-5xl mx-auto px-4 sm:px-6 text-center text-[#183324] z-10 w-full">
+        <div className="bg-[#FAF7F2]/92 backdrop-blur-md border border-[#E2DDD5] rounded-2xl p-5 sm:p-7 md:p-9 shadow-2xl">
           {/* Subtle pill tag in Sage & Forest Green */}
-          <div className="inline-flex items-center gap-2 bg-[#E8EFE9] border border-[#CBDCD0] px-4 py-1.5 mb-5 text-xs uppercase tracking-[0.25em] text-[#1E432D] font-bold shadow-sm">
+          <div className="inline-flex items-center gap-2 bg-[#E8EFE9] border border-[#CBDCD0] px-3.5 sm:px-4 py-1 sm:py-1.5 mb-3 sm:mb-4 text-[10px] sm:text-xs uppercase tracking-[0.16em] sm:tracking-[0.2em] text-[#1E432D] font-bold shadow-sm rounded-full leading-normal">
             <Sparkles className="w-3.5 h-3.5 text-[#4F775D]" />
             <span>NP4 Building Pty Ltd • Kitchen &amp; Bathroom Specialists</span>
           </div>
 
           {/* Main Heading focused on Kitchen & Bathroom */}
-          <h1 className="text-3xl sm:text-5xl md:text-6xl font-bold tracking-tight uppercase text-[#183324] mb-3 leading-tight">
+          <h1 className="text-3xl sm:text-4xl lg:text-5xl font-bold tracking-tight uppercase text-[#183324] mb-2 sm:mb-3 leading-[1.1]">
             Kitchen &amp; Bathroom <span className="text-[#4F775D] font-light">Renovations</span>
           </h1>
 
           {/* Subtitle */}
-          <p className="text-base sm:text-xl font-light italic text-[#3B5444] mb-5">
+          <p className="text-sm sm:text-base lg:text-lg font-light italic text-[#3B5444] mb-3 sm:mb-4">
             Transforming the heart and sanctuaries of your Penrith home.
           </p>
 
           {/* Body narrative with heavy emphasis on Kitchen & Bathroom expertise */}
-          <p className="max-w-3xl mx-auto text-xs sm:text-sm md:text-base text-[#2C4033] leading-relaxed font-normal mb-8">
+          <p className="max-w-3xl mx-auto text-xs sm:text-sm text-[#2C4033] leading-relaxed font-normal mb-5 sm:mb-6">
             From show-stopping entertainer kitchens with statement stone islands to spa-inspired bathroom sanctuaries with certified waterproofing, <strong className="text-[#183324] font-semibold">NP4 Building Pty Ltd</strong> delivers precision craftsmanship across Penrith and Western Sydney. Led personally by director <strong className="text-[#183324] font-semibold">Philmorr Galon</strong>, we bring custom joinery, structural open-plan conversions, and fixed-price certainty to every project.
           </p>
 
           {/* CTA Buttons */}
-          <div className="flex flex-col sm:flex-row items-center justify-center gap-3 sm:gap-4 mb-8">
+          <div className="flex flex-col sm:flex-row items-center justify-center gap-2.5 sm:gap-3.5 mb-5 sm:mb-6">
             <Link
               href="/contact"
-              className="w-full sm:w-auto inline-flex items-center justify-center gap-3 bg-[#183324] hover:bg-[#254F38] text-[#FAF7F2] font-bold px-8 py-3.5 uppercase text-xs tracking-widest transition-all duration-300 shadow-md hover:shadow-lg hover:-translate-y-0.5"
+              className="w-full sm:w-auto inline-flex items-center justify-center gap-2.5 bg-[#183324] hover:bg-[#254F38] text-[#FAF7F2] font-bold px-6 py-2.5 sm:py-3 uppercase text-xs tracking-widest transition-all duration-300 shadow-md hover:shadow-lg hover:-translate-y-0.5 rounded-none"
             >
               <span>Book Free Site Consultation</span>
-              <ArrowRight className="w-4 h-4 text-[#8DA792]" />
+              <ArrowRight className="w-3.5 h-3.5 text-[#8DA792]" />
             </Link>
             <Link
               href="/services/kitchen-renovations"
-              className="w-full sm:w-auto inline-flex items-center justify-center gap-3 bg-white hover:bg-[#FAF7F2] text-[#183324] border border-[#CBDCD0] px-7 py-3.5 uppercase text-xs tracking-widest transition-all duration-300 shadow-sm"
+              className="w-full sm:w-auto inline-flex items-center justify-center gap-2 bg-white hover:bg-[#FAF7F2] text-[#183324] border border-[#CBDCD0] px-5 py-2.5 sm:py-3 uppercase text-xs tracking-widest transition-all duration-300 shadow-sm rounded-none"
             >
               <span>Explore Kitchens</span>
             </Link>
             <Link
               href="/services/bathroom-renovations"
-              className="w-full sm:w-auto inline-flex items-center justify-center gap-3 bg-white hover:bg-[#FAF7F2] text-[#183324] border border-[#CBDCD0] px-7 py-3.5 uppercase text-xs tracking-widest transition-all duration-300 shadow-sm"
+              className="w-full sm:w-auto inline-flex items-center justify-center gap-2 bg-white hover:bg-[#FAF7F2] text-[#183324] border border-[#CBDCD0] px-5 py-2.5 sm:py-3 uppercase text-xs tracking-widest transition-all duration-300 shadow-sm rounded-none"
             >
               <span>Explore Bathrooms</span>
             </Link>
           </div>
 
           {/* Trust Badges Bar */}
-          <div className="grid grid-cols-2 md:grid-cols-4 gap-4 pt-6 border-t border-[#DED6C9] text-left">
-            <div className="flex items-center gap-3 text-[#2C4033]">
-              <ShieldCheck className="w-6 h-6 text-[#4F775D] shrink-0" />
+          <div className="grid grid-cols-2 md:grid-cols-4 gap-3 sm:gap-4 pt-4 sm:pt-5 border-t border-[#DED6C9] text-left">
+            <div className="flex items-center gap-2.5 text-[#2C4033]">
+              <ShieldCheck className="w-5 h-5 text-[#4F775D] shrink-0" />
               <div>
                 <div className="text-xs font-bold text-[#183324] uppercase tracking-wider">NP4 Building Pty Ltd</div>
-                <div className="text-[11px] text-[#5A7363]">NSW Licence #394821C</div>
+                <div className="text-[10px] sm:text-[11px] text-[#5A7363]">NSW Licence #394821C</div>
               </div>
             </div>
 
-            <div className="flex items-center gap-3 text-[#2C4033]">
-              <CheckCircle2 className="w-6 h-6 text-[#4F775D] shrink-0" />
+            <div className="flex items-center gap-2.5 text-[#2C4033]">
+              <CheckCircle2 className="w-5 h-5 text-[#4F775D] shrink-0" />
               <div>
                 <div className="text-xs font-bold text-[#183324] uppercase tracking-wider">Fixed-Price Tenders</div>
-                <div className="text-[11px] text-[#5A7363]">No Hidden Surprise Variations</div>
+                <div className="text-[10px] sm:text-[11px] text-[#5A7363]">No Hidden Surprise Variations</div>
               </div>
             </div>
 
-            <div className="flex items-center gap-3 text-[#2C4033]">
-              <Award className="w-6 h-6 text-[#4F775D] shrink-0" />
+            <div className="flex items-center gap-2.5 text-[#2C4033]">
+              <Award className="w-5 h-5 text-[#4F775D] shrink-0" />
               <div>
                 <div className="text-xs font-bold text-[#183324] uppercase tracking-wider">10-Yr Waterproofing</div>
-                <div className="text-[11px] text-[#5A7363]">AS 3740 Dual-Layer Certified</div>
+                <div className="text-[10px] sm:text-[11px] text-[#5A7363]">AS 3740 Dual-Layer Certified</div>
               </div>
             </div>
 
-            <div className="flex items-center gap-3 text-[#2C4033]">
-              <Ruler className="w-6 h-6 text-[#4F775D] shrink-0" />
+            <div className="flex items-center gap-2.5 text-[#2C4033]">
+              <Ruler className="w-5 h-5 text-[#4F775D] shrink-0" />
               <div>
                 <div className="text-xs font-bold text-[#183324] uppercase tracking-wider">Director On-Site Daily</div>
-                <div className="text-[11px] text-[#5A7363]">Philmorr Galon Supervising</div>
+                <div className="text-[10px] sm:text-[11px] text-[#5A7363]">Philmorr Galon Supervising</div>
               </div>
             </div>
           </div>
