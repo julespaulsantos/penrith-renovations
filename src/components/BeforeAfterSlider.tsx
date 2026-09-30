@@ -102,6 +102,23 @@ export default function BeforeAfterSlider() {
     }
   };
 
+  const currentIndex = Math.max(
+    0,
+    filteredProjects.findIndex((p) => p.id === currentProject?.id)
+  );
+
+  const handlePrevProject = () => {
+    if (filteredProjects.length === 0) return;
+    const nextIdx = (currentIndex - 1 + filteredProjects.length) % filteredProjects.length;
+    handleSelectProject(filteredProjects[nextIdx].id);
+  };
+
+  const handleNextProject = () => {
+    if (filteredProjects.length === 0) return;
+    const nextIdx = (currentIndex + 1) % filteredProjects.length;
+    handleSelectProject(filteredProjects[nextIdx].id);
+  };
+
   return (
     <section className="relative py-24 bg-[#FAF7F2] text-[#1A2E22] overflow-hidden border-y border-[#E2DDD5]">
       {/* Background ambient botanical accents */}
@@ -110,7 +127,7 @@ export default function BeforeAfterSlider() {
 
       <div className="max-w-7xl mx-auto px-4 sm:px-8 relative z-10">
         {/* Section Header */}
-        <div className="text-center max-w-3xl mx-auto mb-14">
+        <div className="text-center max-w-3xl mx-auto mb-10">
           <div className="inline-flex items-center gap-2 px-3.5 py-1.5 rounded-full bg-[#E8EFE9] border border-[#CBDCD0] text-[#1E432D] text-xs font-semibold uppercase tracking-widest mb-4 shadow-sm">
             <Sparkles className="w-3.5 h-3.5 text-[#4F775D]" />
             <span>Actual Renovation Transformations</span>
@@ -147,30 +164,96 @@ export default function BeforeAfterSlider() {
           </div>
         </div>
 
-        {/* Project Selector Horizontal Scroll / Pills */}
-        <div className="flex items-center gap-3 overflow-x-auto pb-4 mb-8 scrollbar-thin scrollbar-thumb-zinc-300">
-          {filteredProjects.map((p) => {
-            const isSelected = p.id === currentProject?.id;
-            return (
-              <button
-                key={p.id}
-                onClick={() => handleSelectProject(p.id)}
-                className={`whitespace-nowrap px-4 py-2.5 text-xs font-medium transition-all flex items-center gap-2 border shrink-0 ${
-                  isSelected
-                    ? "bg-white border-[#183324] text-[#183324] shadow-sm"
-                    : "bg-[#F2ECE1] border-[#DDD5C8] text-[#47604F] hover:bg-white hover:text-[#183324]"
-                }`}
-              >
-                <div
-                  className={`w-2 h-2 rounded-full ${
-                    isSelected ? "bg-[#183324]" : "bg-[#8DA792]"
+        {/* Project Selector - Visible Responsive Grid (No Horizontal Scroll Needed) */}
+        <div className="mb-6">
+          <div className="flex items-center justify-between mb-3 text-xs">
+            <span className="uppercase tracking-wider text-[#3B5243] font-bold">
+              Choose a transformation ({filteredProjects.length} available):
+            </span>
+            <span className="text-[11px] text-[#6A8272] hidden sm:inline">
+              Click any project below to load before &amp; after comparison
+            </span>
+          </div>
+
+          <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-2.5">
+            {filteredProjects.map((p) => {
+              const isSelected = p.id === currentProject?.id;
+              const shortTitle = p.title.replace(
+                /^(Penrith|Glenmore Park|Edensor Park|Jamisontown|South Penrith|Emu Plains|Cranebrook|Jordan Springs)\s*/i,
+                ""
+              );
+              const suburbName = p.suburb.split(",")[0].trim();
+
+              return (
+                <button
+                  key={p.id}
+                  onClick={() => handleSelectProject(p.id)}
+                  className={`p-2.5 rounded text-left transition-all duration-200 border flex items-center gap-2.5 group ${
+                    isSelected
+                      ? "bg-white border-[#183324] shadow-md ring-1 ring-[#183324]/20 -translate-y-0.5"
+                      : "bg-[#F5F1E9] border-[#DDD5C8] hover:bg-white hover:border-[#183324] text-[#334D3D]"
                   }`}
-                />
-                <span className="font-semibold">{p.title.split(":")[0]}</span>
-                <span className="text-[10px] text-[#5A7363] font-mono">({p.suburb.split(",")[0]})</span>
-              </button>
-            );
-          })}
+                >
+                  <img
+                    src={p.thumbnail || p.afterImage}
+                    alt={p.title}
+                    className="w-11 h-11 rounded object-cover shrink-0 border border-[#CBDCD0] group-hover:scale-105 transition-transform"
+                  />
+                  <div className="min-w-0 flex-1">
+                    <div className="flex items-center gap-1.5 mb-0.5">
+                      <span
+                        className={`w-1.5 h-1.5 rounded-full shrink-0 ${
+                          isSelected ? "bg-[#183324]" : "bg-[#8DA792]"
+                        }`}
+                      />
+                      <span className="text-[10px] uppercase font-bold text-[#55695C] tracking-wider truncate">
+                        {suburbName}
+                      </span>
+                    </div>
+                    <div
+                      className={`text-xs font-bold leading-tight line-clamp-1 ${
+                        isSelected ? "text-[#183324]" : "text-[#22352A]"
+                      }`}
+                    >
+                      {shortTitle}
+                    </div>
+                  </div>
+                </button>
+              );
+            })}
+          </div>
+        </div>
+
+        {/* Step-Through Navigation Bar with Prev / Next Buttons */}
+        <div className="flex items-center justify-between bg-white border border-[#E2DDD5] px-4 py-3 mb-8 shadow-sm rounded">
+          <button
+            onClick={handlePrevProject}
+            className="inline-flex items-center gap-1.5 text-xs uppercase tracking-wider font-bold text-[#183324] hover:text-[#4F775D] transition-colors px-3 py-1.5 rounded hover:bg-[#F2ECE1]"
+            aria-label="Previous project"
+          >
+            <ChevronLeft className="w-4 h-4 text-[#4F775D]" />
+            <span className="hidden sm:inline">Previous Transformation</span>
+            <span className="sm:hidden">Prev</span>
+          </button>
+
+          <div className="text-center px-2">
+            <span className="text-xs font-bold text-[#183324] block sm:inline">
+              {currentProject.title}
+            </span>
+            <span className="text-[11px] text-[#5A7363] sm:ml-2 block sm:inline font-mono">
+              ({currentIndex + 1} of {filteredProjects.length})
+            </span>
+          </div>
+
+          <button
+            onClick={handleNextProject}
+            className="inline-flex items-center gap-1.5 text-xs uppercase tracking-wider font-bold text-[#183324] hover:text-[#4F775D] transition-colors px-3 py-1.5 rounded hover:bg-[#F2ECE1]"
+            aria-label="Next project"
+          >
+            <span className="hidden sm:inline">Next Transformation</span>
+            <span className="sm:hidden">Next</span>
+            <ChevronRight className="w-4 h-4 text-[#4F775D]" />
+          </button>
         </div>
 
         {/* Main Comparison Stage */}
