@@ -39,7 +39,7 @@ export default function HomePage() {
       <ServicesShowcase />
 
       {/* 8. Interactive Renovation Cost Estimator */}
-      <CostEstimator />
+      {/* <CostEstimator /> */}
 
       {/* 9. Verified Client Testimonials */}
       <Testimonials />

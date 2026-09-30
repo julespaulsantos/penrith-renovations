@@ -281,6 +281,7 @@ export default function ContactSection() {
                       onChange={handleChange}
                       className="w-full bg-[#FAF7F2] border border-[#D8D2C5] px-3 py-2.5 text-xs text-[#22352a] focus:outline-none focus:border-[#183324]"
                     >
+                      <option value="$15k - $50k">$15k - $50k</option>
                       <option value="$50k - $100k">$50k - $100k</option>
                       <option value="$100k - $250k">$100k - $250k</option>
                       <option value="$250k - $400k">$250k - $400k</option>
