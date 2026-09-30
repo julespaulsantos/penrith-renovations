@@ -5,7 +5,7 @@ import { ShieldCheck, Award, ArrowRight } from "lucide-react";
 export const metadata = {
   title: "About Us | Penrith Renovations",
   description:
-    "Learn about Penrith Renovations, our hands-on director Philmoor Galon, and our commitment to luxury home transformations in Western Sydney.",
+    "Learn about Penrith Renovations, our hands-on director Philmorr Galon, and our commitment to luxury home transformations in Western Sydney.",
 };
 
 export default function AboutPage() {
@@ -43,11 +43,11 @@ export default function AboutPage() {
             </p>
 
             <p className="text-base leading-relaxed text-[#3D5245] font-normal">
-              Our director, Philmoor Galon, brings over 18 years of specialized carpentry, custom joinery, and residential building experience. Philmoor personally oversees spatial design, structural wall removals to open up kitchens, and double-layer waterproofing applications certified strictly to Australian Standard AS 3740.
+              Our director, Philmorr Galon, brings over 18 years of specialized carpentry, custom joinery, and residential building experience. Philmorr personally oversees spatial design, structural wall removals to open up kitchens, and double-layer waterproofing applications certified strictly to Australian Standard AS 3740.
             </p>
 
             <p className="text-base leading-relaxed text-[#3D5245] font-normal">
-              Having served the Nepean and Penrith communities for years, Philmoor understands the nuances of local homes&mdash;from converting compartmentalized 1980s brick floorplans into expansive open entertainer kitchens, to retrofitting spa-inspired ensuites with curbless showers and heated travertine floors.
+              Having served the Nepean and Penrith communities for years, Philmorr understands the nuances of local homes&mdash;from converting compartmentalized 1980s brick floorplans into expansive open entertainer kitchens, to retrofitting spa-inspired ensuites with curbless showers and heated travertine floors.
             </p>
 
             <div className="pt-4 flex flex-wrap gap-4">
@@ -73,7 +73,7 @@ export default function AboutPage() {
             <div className="aspect-[4/5] rounded overflow-hidden shadow-2xl border border-[#E2DDD5]">
               <img
                 src="https://images.unsplash.com/photo-1556911220-e15b29be8c8f?auto=format&fit=crop&w=1200&q=80"
-                alt="Philmoor Galon, Director of NP4 Building Pty Ltd overseeing a luxury kitchen build"
+                alt="Philmorr Galon, Director of NP4 Building Pty Ltd overseeing a luxury kitchen build"
                 className="w-full h-full object-cover"
               />
             </div>
@@ -130,7 +130,7 @@ export default function AboutPage() {
               href="/contact"
               className="inline-flex items-center gap-3 bg-[#183324] hover:bg-[#254F38] text-white font-bold px-8 py-4 uppercase text-xs tracking-widest transition-colors shadow-md hover:shadow-lg"
             >
-              <span>Speak With Philmoor Directly</span>
+              <span>Speak With Philmorr Directly</span>
               <ArrowRight className="w-4 h-4 text-[#8DA792]" />
             </Link>
           </div>

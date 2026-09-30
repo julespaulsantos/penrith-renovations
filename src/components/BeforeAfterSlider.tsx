@@ -354,7 +354,7 @@ export default function BeforeAfterSlider() {
                     <span>NP4 Building Pty Ltd Guarantee</span>
                   </div>
                   <p className="text-[11px] text-[#3B5444] leading-normal">
-                    Licensed NSW Builder <strong>#394821C</strong> (Philmoor Galon). All wet area work
+                    Licensed NSW Builder <strong>#394821C</strong> (Philmorr Galon). All wet area work
                     complies strictly with <strong>AS 3740:2021</strong> waterproofing &amp; <strong>AS 3500</strong> plumbing
                     standards, backed by a 7-year statutory warranty.
                   </p>

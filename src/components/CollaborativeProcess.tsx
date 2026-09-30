@@ -8,7 +8,7 @@ const steps = [
     icon: MessageSquare,
     title: "On-Site Design & Spatial Review",
     description:
-      "Philmoor visits your home to inspect current plumbing, structural walls, and electrical services, planning optimal work triangles and storage.",
+      "Philmorr visits your home to inspect current plumbing, structural walls, and electrical services, planning optimal work triangles and storage.",
   },
   {
     number: "02",
@@ -62,7 +62,7 @@ export default function CollaborativeProcess() {
               Renovating wet areas like kitchens and bathrooms requires flawless trade coordination and uncompromising waterproofing. At <strong className="text-[#183324] font-semibold">NP4 Building Pty Ltd</strong>, we work hand-in-hand with you to choose durable materials and optimize ergonomics while protecting your budget.
             </p>
             <p>
-              Our director, <strong className="text-[#183324] font-semibold">Philmoor Galon</strong>, takes a hands-on approach to every build &mdash; personally overseeing structural framing, plumbing pressure tests, waterproofing inspections, and stone templating to guarantee perfection.
+              Our director, <strong className="text-[#183324] font-semibold">Philmorr Galon</strong>, takes a hands-on approach to every build &mdash; personally overseeing structural framing, plumbing pressure tests, waterproofing inspections, and stone templating to guarantee perfection.
             </p>
           </div>
         </div>
@@ -105,7 +105,7 @@ export default function CollaborativeProcess() {
               Ready to upgrade your kitchen or bathroom?
             </h4>
             <p className="text-sm text-[#C2D6C8] mt-1 font-light">
-              Philmoor is happy to review your ideas, layout options, or visit your property for a complimentary on-site feasibility appraisal.
+              Philmorr is happy to review your ideas, layout options, or visit your property for a complimentary on-site feasibility appraisal.
             </p>
           </div>
           <Link

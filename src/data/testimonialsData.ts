@@ -17,7 +17,7 @@ export const testimonialsData: Testimonial[] = [
     rating: 5,
     date: "November 2025",
     review:
-      "Philmoor and the NP4 Building team completely transformed our cramped, dark 1980s kitchen. They removed a load-bearing brick wall and installed a hidden steel beam so smoothly. The massive waterfall island and custom fluted joinery are beyond stunning. Philmoor was on site daily ensuring every single mitre and tile line was millimeter-perfect.",
+      "Philmorr and the NP4 Building team completely transformed our cramped, dark 1980s kitchen. They removed a load-bearing brick wall and installed a hidden steel beam so smoothly. The massive waterfall island and custom fluted joinery are beyond stunning. Philmorr was on site daily ensuring every single mitre and tile line was millimeter-perfect.",
   },
   {
     id: "2",
@@ -27,7 +27,7 @@ export const testimonialsData: Testimonial[] = [
     rating: 5,
     date: "January 2026",
     review:
-      "We consulted three different kitchen builders in Penrith before choosing NP4 Building Pty Ltd. Philmoor's practical advice on spatial ergonomics and stone selection made all the difference. Our kitchen and butler's pantry were finished exactly on schedule and within the fixed-price quotation. True kitchen renovation masters!",
+      "We consulted three different kitchen builders in Penrith before choosing NP4 Building Pty Ltd. Philmorr's practical advice on spatial ergonomics and stone selection made all the difference. Our kitchen and butler's pantry were finished exactly on schedule and within the fixed-price quotation. True kitchen renovation masters!",
   },
   {
     id: "3",

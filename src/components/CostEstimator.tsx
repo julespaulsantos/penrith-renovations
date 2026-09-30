@@ -80,7 +80,7 @@ export default function CostEstimator() {
               </div>
               <div className="flex items-start gap-3 text-xs text-[#3B5243]">
                 <Check className="w-4 h-4 text-[#4F775D] shrink-0 mt-0.5" />
-                <span>Every quote from Philmoor Galon is fixed-price with zero hidden variations.</span>
+                <span>Every quote from Philmorr Galon is fixed-price with zero hidden variations.</span>
               </div>
             </div>
           </div>

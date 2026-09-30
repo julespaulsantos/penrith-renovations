@@ -71,7 +71,7 @@ export default function ContactSection() {
                 Start Your <span className="font-light text-[#4F775D]">Project</span>
               </h2>
               <p className="text-sm text-[#55695C] font-normal leading-relaxed">
-                Whether you have architectural plans ready to quote or are simply exploring possibilities for your Penrith home, Philmoor and our team look forward to discussing your vision.
+                Whether you have architectural plans ready to quote or are simply exploring possibilities for your Penrith home, Philmorr and our team look forward to discussing your vision.
               </p>
             </div>
 
@@ -90,7 +90,7 @@ export default function ContactSection() {
                   >
                     0497 985 592
                   </a>
-                  <p className="text-xs text-[#667E70]">Speak directly with Director Philmoor Galon</p>
+                  <p className="text-xs text-[#667E70]">Speak directly with Director Philmorr Galon</p>
                 </div>
               </div>
 
@@ -153,7 +153,7 @@ export default function ContactSection() {
                   Consultation Request Received
                 </h3>
                 <p className="text-sm text-[#384C3F] max-w-md mx-auto leading-relaxed">
-                  Thank you, <strong className="text-[#183324]">{formData.name}</strong>. Philmoor Galon has received your project details and will call you within 24 hours to arrange your on-site walkthrough.
+                  Thank you, <strong className="text-[#183324]">{formData.name}</strong>. Philmorr Galon has received your project details and will call you within 24 hours to arrange your on-site walkthrough.
                 </p>
                 <div className="pt-4">
                   <button

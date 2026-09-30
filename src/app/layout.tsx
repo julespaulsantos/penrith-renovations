@@ -13,7 +13,7 @@ const plusJakartaSans = Plus_Jakarta_Sans({
 export const metadata: Metadata = {
   title: "Penrith Renovations | Kitchen & Bathroom Specialists | NP4 Building Pty Ltd",
   description:
-    "NP4 Building Pty Ltd are specialist kitchen and bathroom renovation builders in Penrith, Glenmore Park, and Western Sydney. Bespoke cabinetry, statement stone islands, and luxury spa ensuites led by Philmoor Galon.",
+    "NP4 Building Pty Ltd are specialist kitchen and bathroom renovation builders in Penrith, Glenmore Park, and Western Sydney. Bespoke cabinetry, statement stone islands, and luxury spa ensuites led by Philmorr Galon.",
   keywords: [
     "Kitchen renovations Penrith",
     "Bathroom renovations Penrith",

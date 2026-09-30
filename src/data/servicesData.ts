@@ -85,7 +85,7 @@ export const servicesData: ServiceItem[] = [
       "Unified material and stone palette connecting kitchen, bathrooms, and laundry",
       "Synchronised trade scheduling minimising total renovation downtime",
       "Substantial cost savings on bulk plumbing, electrical, and stone procurement",
-      "Single point of contact: Director Philmoor Galon on site daily",
+      "Single point of contact: Director Philmorr Galon on site daily",
     ],
     processSteps: [
       {

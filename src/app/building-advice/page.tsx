@@ -40,7 +40,7 @@ const adviceTopics = [
       "What is involved when knocking down walls to connect your kitchen to the dining and living room?",
     content: [
       "Many 1970s&ndash;1990s homes in Penrith, Jamisontown, and South Penrith have small, boxed-in kitchens separated by load-bearing walls.",
-      "Our licensed builder Philmoor Galon inspects roof trusses and ceiling joists to calculate structural loads accurately.",
+      "Our licensed builder Philmorr Galon inspects roof trusses and ceiling joists to calculate structural loads accurately.",
       "We install concealed steel beams (RSJs) to support the roof load, creating a completely flush ceiling and seamless open living space.",
       "Most internal non-structural alterations do not require a council DA and can proceed immediately under Exempt or Complying Development.",
     ],
@@ -53,7 +53,7 @@ const adviceTopics = [
     content: [
       "Under NSW law, any residential building or renovation work exceeding $20,000 requires Home Building Compensation Fund (HBCF) insurance cover.",
       "This protects homeowners against non-completion or defective work for up to 6 years for major defects and 2 years for other defects.",
-      "Always verify that your builder holds an unrestricted Contractor Licence in Carpentry or General Building. Philmoor Galon holds NP4 Building Pty Ltd Licence #394821C.",
+      "Always verify that your builder holds an unrestricted Contractor Licence in Carpentry or General Building. Philmorr Galon holds NP4 Building Pty Ltd Licence #394821C.",
     ],
   },
   {
@@ -133,7 +133,7 @@ export default function BuildingAdvicePage() {
               Planning a kitchen or bathroom renovation?
             </h3>
             <p className="text-sm text-[#C2D6C8] font-normal">
-              Send us your floorplan or book a free on-site consultation with Philmoor Galon to discuss spatial possibilities and fixed-price estimates.
+              Send us your floorplan or book a free on-site consultation with Philmorr Galon to discuss spatial possibilities and fixed-price estimates.
             </p>
           </div>
 
@@ -141,7 +141,7 @@ export default function BuildingAdvicePage() {
             href="/contact"
             className="shrink-0 bg-[#FAF7F2] hover:bg-white text-[#183324] font-bold px-8 py-4 uppercase text-xs tracking-widest transition-colors flex items-center gap-2 relative z-10 shadow-md"
           >
-            <span>Ask Philmoor Directly</span>
+            <span>Ask Philmorr Directly</span>
             <ArrowRight className="w-4 h-4 text-[#4F775D]" />
           </Link>
         </div>

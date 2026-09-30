@@ -13,7 +13,7 @@ export async function POST(request: Request) {
       );
     }
 
-    // In production, you can forward this to Resend, SendGrid, or direct email to Philmoor:
+    // In production, you can forward this to Resend, SendGrid, or direct email to Philmorr:
     console.log("=== NEW CONSULTATION REQUEST RECEIVED ===");
     console.log("Name:", name);
     console.log("Email:", email);
@@ -29,7 +29,7 @@ export async function POST(request: Request) {
       {
         success: true,
         message:
-          "Thank you for contacting Penrith Renovations. Philmoor will be in touch within 24 hours to schedule your on-site consultation.",
+          "Thank you for contacting Penrith Renovations. Philmorr will be in touch within 24 hours to schedule your on-site consultation.",
       },
       { status: 200 }
     );

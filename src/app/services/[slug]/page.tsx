@@ -138,7 +138,7 @@ export default async function ServiceDetailPage({ params }: ServicePageProps) {
                   <strong className="text-[#183324] block uppercase tracking-wider mb-0.5">
                     Director Hands-On Daily
                   </strong>
-                  Philmoor Galon personally inspects and oversees works on site each day.
+                  Philmorr Galon personally inspects and oversees works on site each day.
                 </div>
               </div>
             </div>

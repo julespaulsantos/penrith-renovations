@@ -5,7 +5,7 @@ import StressFreeBanner from "@/components/StressFreeBanner";
 export const metadata = {
   title: "Contact Us & Book Free Site Consultation | Penrith Renovations",
   description:
-    "Contact NP4 Building Pty Ltd to discuss your designer kitchen or luxury bathroom renovation. Call Philmoor on 0497 985 592 or request an on-site consultation.",
+    "Contact NP4 Building Pty Ltd to discuss your designer kitchen or luxury bathroom renovation. Call Philmorr on 0497 985 592 or request an on-site consultation.",
 };
 
 export default function ContactPage() {
@@ -25,7 +25,7 @@ export default function ContactPage() {
             Contact &amp; <span className="font-light text-[#A4C4AD]">Consultation</span>
           </h1>
           <p className="max-w-3xl mx-auto text-base sm:text-lg text-[#D2E2D7] font-normal leading-relaxed">
-            Ready to bring your kitchen or bathroom vision to life? Contact director Philmoor Galon directly or complete the form below to book your free on-site feasibility inspection.
+            Ready to bring your kitchen or bathroom vision to life? Contact director Philmorr Galon directly or complete the form below to book your free on-site feasibility inspection.
           </p>
         </div>
       </section>
