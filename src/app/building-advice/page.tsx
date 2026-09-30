@@ -46,17 +46,6 @@ const adviceTopics = [
     ],
   },
   {
-    icon: ShieldCheck,
-    title: "NSW Home Building Compensation Fund (HBCF) & Licences",
-    summary:
-      "Why you should only engage a fully licensed residential builder with active insurance.",
-    content: [
-      "Under NSW law, any residential building or renovation work exceeding $20,000 requires Home Building Compensation Fund (HBCF) insurance cover.",
-      "This protects homeowners against non-completion or defective work for up to 6 years for major defects and 2 years for other defects.",
-      "Always verify that your builder holds an unrestricted Contractor Licence in Carpentry or General Building. Philmorr Galon holds NP4 Building Pty Ltd Licence #394821C.",
-    ],
-  },
-  {
     icon: AlertTriangle,
     title: "Avoiding the 'Low Tender / High Variation' Trap",
     summary:

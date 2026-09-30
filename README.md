@@ -7,7 +7,7 @@ A modern, high-converting website for **Penrith Renovations** by **NP4 Building 
 ## 🌟 Key Features & Specialisations
 
 1. **Header & Navigation**:
-   - Clean slate/charcoal header with licensing badge (`NSW Lic #394821C`), direct dial (`0497 985 592`), and email.
+   - Clean slate/charcoal header with licensing badge (`NSW Lic #336447C`), direct dial (`0497 985 592`), and email.
    - Direct navigation for specialized services (*Kitchen Renovations, Bathroom Renovations, Kitchen & Bath Combos, Custom Joinery, Open-Plan Wall Removals*).
    - Responsive mobile navigation drawer.
 

@@ -46,7 +46,7 @@ export default function Footer() {
               </p>
 
               <p className="text-xs uppercase tracking-widest text-[#8DA792] font-semibold pt-1">
-                NP4 Building Pty Ltd • Lic #394821C
+                NP4 Building Pty Ltd • Lic #336447C
               </p>
             </div>
           </div>

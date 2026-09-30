@@ -25,7 +25,7 @@ export default function ContactPage() {
             Contact &amp; <span className="font-light text-[#A4C4AD]">Consultation</span>
           </h1>
           <p className="max-w-3xl mx-auto text-base sm:text-lg text-[#D2E2D7] font-normal leading-relaxed">
-            Ready to bring your kitchen or bathroom vision to life? Contact director Philmorr Galon directly or complete the form below to book your free on-site feasibility inspection.
+            Ready to bring your kitchen or bathroom vision to life? Contact manager Philmorr Galon directly or complete the form below to book your free on-site feasibility inspection.
           </p>
         </div>
       </section>

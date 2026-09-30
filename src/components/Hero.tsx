@@ -8,7 +8,7 @@ const heroSlides = [
   {
     image: "/projects/real/aj-kitchen-after.jpg",
     caption: "Open-Concept Living & Statement Island Kitchen",
-    location: "Penrith / Jamisontown",
+    location: "Penrith",
   },
   {
     image: "/projects/real/lyn-bath-after.jpg",
@@ -43,9 +43,8 @@ export default function Hero() {
       {heroSlides.map((slide, index) => (
         <div
           key={index}
-          className={`absolute inset-0 transition-opacity duration-1000 ease-in-out ${
-            index === currentSlide ? "opacity-100 scale-100" : "opacity-0 scale-105"
-          }`}
+          className={`absolute inset-0 transition-opacity duration-1000 ease-in-out ${index === currentSlide ? "opacity-100 scale-100" : "opacity-0 scale-105"
+            }`}
           style={{
             backgroundImage: `url(${slide.image})`,
             backgroundSize: "cover",
@@ -120,7 +119,7 @@ export default function Hero() {
               <ShieldCheck className="w-5 h-5 text-[#4F775D] shrink-0" />
               <div>
                 <div className="text-xs font-bold text-[#183324] uppercase tracking-wider">NP4 Building Pty Ltd</div>
-                <div className="text-[10px] sm:text-[11px] text-[#5A7363]">NSW Licence #394821C</div>
+                <div className="text-[10px] sm:text-[11px] text-[#5A7363]">NSW Licence #336447C</div>
               </div>
             </div>
 
@@ -158,9 +157,8 @@ export default function Hero() {
             key={i}
             onClick={() => setCurrentSlide(i)}
             aria-label={`Go to slide ${i + 1}`}
-            className={`h-1.5 transition-all duration-300 ${
-              i === currentSlide ? "w-8 bg-[#183324]" : "w-3 bg-white/70 hover:bg-white shadow-sm"
-            }`}
+            className={`h-1.5 transition-all duration-300 ${i === currentSlide ? "w-8 bg-[#183324]" : "w-3 bg-white/70 hover:bg-white shadow-sm"
+              }`}
           />
         ))}
       </div>

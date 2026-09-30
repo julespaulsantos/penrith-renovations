@@ -90,7 +90,7 @@ export default function ContactSection() {
                   >
                     0497 985 592
                   </a>
-                  <p className="text-xs text-[#667E70]">Speak directly with Director Philmorr Galon</p>
+                  <p className="text-xs text-[#667E70]">Speak directly with manager Philmorr Galon</p>
                 </div>
               </div>
 
@@ -134,7 +134,7 @@ export default function ContactSection() {
                     Licence &amp; Compliance
                   </span>
                   <p className="text-sm text-[#22352a] font-medium">
-                    NP4 Building Pty Ltd Licence No. 394821C
+                    NP4 Building Pty Ltd Licence No. 336447C
                   </p>
                   <p className="text-xs text-[#667E70]">Fully insured with Home Building Compensation Fund (HBCF)</p>
                 </div>

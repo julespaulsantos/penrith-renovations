@@ -5,7 +5,7 @@ import { ShieldCheck, Award, ArrowRight } from "lucide-react";
 export const metadata = {
   title: "About Us | Penrith Renovations",
   description:
-    "Learn about Penrith Renovations, our hands-on director Philmorr Galon, and our commitment to luxury home transformations in Western Sydney.",
+    "Learn about Penrith Renovations, our hands-on manager Philmorr Galon, and our commitment to luxury home transformations in Western Sydney.",
 };
 
 export default function AboutPage() {
@@ -55,7 +55,7 @@ export default function AboutPage() {
                 <ShieldCheck className="w-8 h-8 text-[#4F775D]" />
                 <div>
                   <div className="font-bold text-xs uppercase text-[#183324]">Builder Licence</div>
-                  <div className="text-xs text-[#667E70]">NP4 Building Pty Ltd #394821C</div>
+                  <div className="text-xs text-[#667E70]">NP4 Building Pty Ltd #336447C</div>
                 </div>
               </div>
 

@@ -152,11 +152,10 @@ export default function BeforeAfterSlider() {
               <button
                 key={tab.id}
                 onClick={() => handleTabChange(tab.id)}
-                className={`px-4 py-2 text-xs uppercase tracking-wider font-semibold transition-all ${
-                  activeTab === tab.id
-                    ? "bg-[#183324] text-[#FAF7F2] shadow-sm font-bold"
-                    : "bg-[#EFEAE1] text-[#2C4033] hover:bg-[#E2DDD3] border border-[#D5CEBF]"
-                }`}
+                className={`px-4 py-2 text-xs uppercase tracking-wider font-semibold transition-all ${activeTab === tab.id
+                  ? "bg-[#183324] text-[#FAF7F2] shadow-sm font-bold"
+                  : "bg-[#EFEAE1] text-[#2C4033] hover:bg-[#E2DDD3] border border-[#D5CEBF]"
+                  }`}
               >
                 {tab.label}
               </button>
@@ -179,7 +178,7 @@ export default function BeforeAfterSlider() {
             {filteredProjects.map((p) => {
               const isSelected = p.id === currentProject?.id;
               const shortTitle = p.title.replace(
-                /^(Penrith|Glenmore Park|Edensor Park|Jamisontown|South Penrith|Emu Plains|Cranebrook|Jordan Springs)\s*/i,
+                /^(Penrith|Glenmore Park|Dean Park|Jamisontown|South Penrith|Emu Plains|Cranebrook|Jordan Springs)\s*/i,
                 ""
               );
               const suburbName = p.suburb.split(",")[0].trim();
@@ -188,11 +187,10 @@ export default function BeforeAfterSlider() {
                 <button
                   key={p.id}
                   onClick={() => handleSelectProject(p.id)}
-                  className={`p-2.5 rounded text-left transition-all duration-200 border flex items-center gap-2.5 group ${
-                    isSelected
-                      ? "bg-white border-[#183324] shadow-md ring-1 ring-[#183324]/20 -translate-y-0.5"
-                      : "bg-[#F5F1E9] border-[#DDD5C8] hover:bg-white hover:border-[#183324] text-[#334D3D]"
-                  }`}
+                  className={`p-2.5 rounded text-left transition-all duration-200 border flex items-center gap-2.5 group ${isSelected
+                    ? "bg-white border-[#183324] shadow-md ring-1 ring-[#183324]/20 -translate-y-0.5"
+                    : "bg-[#F5F1E9] border-[#DDD5C8] hover:bg-white hover:border-[#183324] text-[#334D3D]"
+                    }`}
                 >
                   <img
                     src={p.thumbnail || p.afterImage}
@@ -202,18 +200,16 @@ export default function BeforeAfterSlider() {
                   <div className="min-w-0 flex-1">
                     <div className="flex items-center gap-1.5 mb-0.5">
                       <span
-                        className={`w-1.5 h-1.5 rounded-full shrink-0 ${
-                          isSelected ? "bg-[#183324]" : "bg-[#8DA792]"
-                        }`}
+                        className={`w-1.5 h-1.5 rounded-full shrink-0 ${isSelected ? "bg-[#183324]" : "bg-[#8DA792]"
+                          }`}
                       />
                       <span className="text-[10px] uppercase font-bold text-[#55695C] tracking-wider truncate">
                         {suburbName}
                       </span>
                     </div>
                     <div
-                      className={`text-xs font-bold leading-tight line-clamp-1 ${
-                        isSelected ? "text-[#183324]" : "text-[#22352A]"
-                      }`}
+                      className={`text-xs font-bold leading-tight line-clamp-1 ${isSelected ? "text-[#183324]" : "text-[#22352A]"
+                        }`}
                     >
                       {shortTitle}
                     </div>
@@ -355,11 +351,10 @@ export default function BeforeAfterSlider() {
                       <button
                         key={idx}
                         onClick={() => setActiveDetailImage(imgSrc)}
-                        className={`relative aspect-[4/3] overflow-hidden border transition-all ${
-                          activeDetailImage === imgSrc
-                            ? "border-[#183324] ring-2 ring-[#4F775D]/40"
-                            : "border-[#E2DDD5] hover:border-[#4F775D] opacity-80 hover:opacity-100"
-                        }`}
+                        className={`relative aspect-[4/3] overflow-hidden border transition-all ${activeDetailImage === imgSrc
+                          ? "border-[#183324] ring-2 ring-[#4F775D]/40"
+                          : "border-[#E2DDD5] hover:border-[#4F775D] opacity-80 hover:opacity-100"
+                          }`}
                       >
                         <img
                           src={imgSrc}
@@ -437,7 +432,7 @@ export default function BeforeAfterSlider() {
                     <span>NP4 Building Pty Ltd Guarantee</span>
                   </div>
                   <p className="text-[11px] text-[#3B5444] leading-normal">
-                    Licensed NSW Builder <strong>#394821C</strong> (Philmorr Galon). All wet area work
+                    Licensed NSW Builder <strong>#336447C</strong> (Philmorr Galon). All wet area work
                     complies strictly with <strong>AS 3740:2021</strong> waterproofing &amp; <strong>AS 3500</strong> plumbing
                     standards, backed by a 7-year statutory warranty.
                   </p>

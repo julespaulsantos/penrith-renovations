@@ -13,7 +13,7 @@ export default function StressFreeBanner() {
             <strong className="text-white font-bold underline decoration-[#8DA792]/70 underline-offset-4">stress free</strong> as possible.
           </h2>
           <p className="text-xs sm:text-sm text-[#C2D6C8] mt-3 font-normal leading-relaxed">
-            Fixed-price contracts, dust-controlled home protection, director Philmorr Galon on-site daily, and prompt, honest communication from concept to completion.
+            Fixed-price contracts, dust-controlled home protection, manager Philmorr Galon on-site daily, and prompt, honest communication from concept to completion.
           </p>
         </div>
 
