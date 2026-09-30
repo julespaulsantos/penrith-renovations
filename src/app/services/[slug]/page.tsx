@@ -23,13 +23,16 @@ export default async function ServiceDetailPage({ params }: ServicePageProps) {
     notFound();
   }
 
-  // Related projects
+  // Related projects - strictly filtered so kitchen services only display kitchen projects
   const relatedProjects = projectsData.filter((p) => {
     if (slug === "kitchen-renovations" || slug === "custom-joinery" || slug === "open-plan-wall-removals") {
-      return p.category === "kitchens" || p.category === "combos";
+      return p.category === "kitchens";
     }
     if (slug === "bathroom-renovations") {
       return p.category === "bathrooms" || p.category === "combos";
+    }
+    if (slug === "kitchen-bathroom-packages") {
+      return true;
     }
     return true;
   });

@@ -83,18 +83,22 @@ export default function SeamlessHomes() {
                 alt="Luxury open-concept kitchen renovation with statement island in Penrith"
                 className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-105"
               />
-              <div className="absolute inset-0 bg-gradient-to-t from-black/60 via-transparent to-transparent opacity-80" />
-              <div className="absolute bottom-6 left-6 right-6 text-white">
-                <div className="text-xs uppercase tracking-widest text-[#A3C2AD] font-medium mb-1">
-                  Featured Renovation by NP4 Building Pty Ltd
+              <div className="absolute inset-0 bg-gradient-to-b from-black/75 via-transparent to-black/20 opacity-90" />
+              <div className="absolute top-4 left-4 right-4 sm:top-6 sm:left-6 sm:right-6 text-white">
+                <div className="inline-block px-2.5 py-1 bg-[#183324]/85 backdrop-blur-sm border border-[#2B543D] text-[10px] uppercase tracking-widest text-[#A3C2AD] font-bold mb-1.5 rounded">
+                  Featured Renovation • Penrith
                 </div>
-                <div className="text-lg font-bold">Penrith Open-Concept Living &amp; Island Kitchen</div>
-                <div className="text-xs text-zinc-300">Structural Wall Removal, Waterfall Stone &amp; Acoustic Timber Slat Wall</div>
+                <div className="text-base sm:text-lg font-bold text-white drop-shadow-sm">
+                  Penrith Open-Concept Living &amp; Island Kitchen
+                </div>
+                <div className="text-xs text-zinc-200 font-light drop-shadow-sm">
+                  Structural Wall Removal, Waterfall Stone &amp; Acoustic Timber Slat Wall
+                </div>
               </div>
             </div>
 
             {/* Overlapping feature card in Deep Forest Green */}
-            <div className="hidden sm:block absolute -bottom-8 -left-8 bg-[#183324] text-[#FAF7F2] p-6 rounded shadow-xl border border-[#2B543D] max-w-xs">
+            <div className="hidden sm:block absolute -bottom-6 -left-6 bg-[#183324] text-[#FAF7F2] p-5 sm:p-6 rounded shadow-xl border border-[#2B543D] max-w-xs z-10">
               <div className="text-2xl font-bold text-[#A3C2AD]">NP4 Building</div>
               <div className="text-xs uppercase tracking-widest text-[#B5CCC0] mt-0.5">
                 Director-Led Supervision
