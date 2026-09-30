@@ -60,11 +60,11 @@ export default function Hero() {
       <div className="absolute inset-0 bg-gradient-to-t from-[#FAF7F2] via-transparent to-black/25 pointer-events-none" />
 
       {/* Floating authentic project caption pill */}
-      <div className="absolute top-28 right-4 sm:right-8 hidden md:flex items-center gap-2 bg-[#183324]/80 text-[#FAF7F2] text-[11px] px-3.5 py-1.5 rounded-full backdrop-blur-md border border-white/20 shadow-lg z-20 transition-all duration-500">
-        <span className="w-2 h-2 rounded-full bg-[#8DA792] animate-pulse" />
-        <span className="font-semibold text-white">Actual Project:</span>
-        <span className="text-[#D2E2D7]">{heroSlides[currentSlide].caption}</span>
-        <span className="text-[#8DA792] font-medium">&bull; {heroSlides[currentSlide].location}</span>
+      <div className="absolute bottom-5 sm:bottom-6 right-4 sm:right-8 hidden sm:flex items-center gap-2 bg-[#183324]/90 text-[#FAF7F2] text-xs px-4 py-2 rounded-full backdrop-blur-md border border-[#2B543D] shadow-xl z-20 transition-all duration-500 max-w-[90vw]">
+        <span className="w-2 h-2 rounded-full bg-[#8DA792] animate-pulse shrink-0" />
+        <span className="font-semibold text-white whitespace-nowrap">Actual Project:</span>
+        <span className="text-[#D2E2D7] truncate">{heroSlides[currentSlide].caption}</span>
+        <span className="text-[#8DA792] font-medium shrink-0 whitespace-nowrap">&bull; {heroSlides[currentSlide].location}</span>
       </div>
 
       {/* Content Container - Centered Frosted Glass Architectural Panel */}

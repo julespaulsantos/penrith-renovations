@@ -82,118 +82,121 @@ export default function Header() {
             </span>
           </Link>
 
-          {/* Desktop Nav Links */}
-          <div className="hidden lg:flex items-center gap-7">
-            <Link
-              href="/"
-              className="text-sm font-medium tracking-wide uppercase text-[#233C2C] hover:text-[#183324] transition-colors"
-            >
-              Home
-            </Link>
-            <Link
-              href="/services/kitchen-renovations"
-              className="text-sm font-semibold tracking-wide uppercase text-[#2E583D] hover:text-[#183324] transition-colors"
-            >
-              Kitchens
-            </Link>
-            <Link
-              href="/services/bathroom-renovations"
-              className="text-sm font-semibold tracking-wide uppercase text-[#2E583D] hover:text-[#183324] transition-colors"
-            >
-              Bathrooms
-            </Link>
-
-            {/* Services Dropdown */}
-            <div
-              className="relative"
-              onMouseEnter={() => setServicesDropdownOpen(true)}
-              onMouseLeave={() => setServicesDropdownOpen(false)}
-            >
+          {/* Desktop Navigation & Action CTA */}
+          <div className="hidden lg:flex items-center">
+            {/* Desktop Nav Links */}
+            <div className="flex items-center gap-4 xl:gap-6 text-xs xl:text-sm">
               <Link
-                href="/services"
-                className="flex items-center gap-1 text-sm font-medium tracking-wide uppercase text-[#233C2C] hover:text-[#183324] transition-colors py-2"
+                href="/"
+                className="font-medium tracking-wide uppercase text-[#233C2C] hover:text-[#183324] transition-colors whitespace-nowrap"
               >
-                All Services
-                <ChevronDown className="w-3.5 h-3.5 transition-transform duration-200" />
+                Home
+              </Link>
+              <Link
+                href="/services/kitchen-renovations"
+                className="font-semibold tracking-wide uppercase text-[#2E583D] hover:text-[#183324] transition-colors whitespace-nowrap"
+              >
+                Kitchens
+              </Link>
+              <Link
+                href="/services/bathroom-renovations"
+                className="font-semibold tracking-wide uppercase text-[#2E583D] hover:text-[#183324] transition-colors whitespace-nowrap"
+              >
+                Bathrooms
               </Link>
 
-              {servicesDropdownOpen && (
-                <div className="absolute top-full left-0 w-72 bg-[#FAF7F2] border border-[#DDD5C8] rounded shadow-xl py-3 z-50">
-                  <Link
-                    href="/services/kitchen-renovations"
-                    className="block px-4 py-2.5 text-xs uppercase tracking-wider text-[#233C2C] hover:text-[#183324] hover:bg-[#EBF1EC] transition-colors"
-                  >
-                    Designer Kitchen Renovations
-                  </Link>
-                  <Link
-                    href="/services/bathroom-renovations"
-                    className="block px-4 py-2.5 text-xs uppercase tracking-wider text-[#233C2C] hover:text-[#183324] hover:bg-[#EBF1EC] transition-colors"
-                  >
-                    Luxury Bathroom Renovations
-                  </Link>
-                  <Link
-                    href="/services/kitchen-bathroom-packages"
-                    className="block px-4 py-2.5 text-xs uppercase tracking-wider text-[#233C2C] hover:text-[#183324] hover:bg-[#EBF1EC] transition-colors"
-                  >
-                    Kitchen &amp; Bath Combo Packages
-                  </Link>
-                  <Link
-                    href="/services/custom-joinery"
-                    className="block px-4 py-2.5 text-xs uppercase tracking-wider text-[#233C2C] hover:text-[#183324] hover:bg-[#EBF1EC] transition-colors"
-                  >
-                    Custom Joinery &amp; Pantries
-                  </Link>
-                  <Link
-                    href="/services/open-plan-wall-removals"
-                    className="block px-4 py-2.5 text-xs uppercase tracking-wider text-[#233C2C] hover:text-[#183324] hover:bg-[#EBF1EC] transition-colors"
-                  >
-                    Kitchen Wall Removals
-                  </Link>
-                  <div className="border-t border-[#E5DFD5] my-1"></div>
-                  <Link
-                    href="/services"
-                    className="block px-4 py-2 text-xs font-semibold text-[#2E583D] hover:text-[#183324] transition-colors"
-                  >
-                    Explore Specialised Services &rarr;
-                  </Link>
-                </div>
-              )}
+              {/* Services Dropdown */}
+              <div
+                className="relative"
+                onMouseEnter={() => setServicesDropdownOpen(true)}
+                onMouseLeave={() => setServicesDropdownOpen(false)}
+              >
+                <Link
+                  href="/services"
+                  className="flex items-center gap-1 font-medium tracking-wide uppercase text-[#233C2C] hover:text-[#183324] transition-colors py-2 whitespace-nowrap"
+                >
+                  All Services
+                  <ChevronDown className="w-3.5 h-3.5 transition-transform duration-200" />
+                </Link>
+
+                {servicesDropdownOpen && (
+                  <div className="absolute top-full left-0 w-72 bg-[#FAF7F2] border border-[#DDD5C8] rounded shadow-xl py-3 z-50">
+                    <Link
+                      href="/services/kitchen-renovations"
+                      className="block px-4 py-2.5 text-xs uppercase tracking-wider text-[#233C2C] hover:text-[#183324] hover:bg-[#EBF1EC] transition-colors"
+                    >
+                      Designer Kitchen Renovations
+                    </Link>
+                    <Link
+                      href="/services/bathroom-renovations"
+                      className="block px-4 py-2.5 text-xs uppercase tracking-wider text-[#233C2C] hover:text-[#183324] hover:bg-[#EBF1EC] transition-colors"
+                    >
+                      Luxury Bathroom Renovations
+                    </Link>
+                    <Link
+                      href="/services/kitchen-bathroom-packages"
+                      className="block px-4 py-2.5 text-xs uppercase tracking-wider text-[#233C2C] hover:text-[#183324] hover:bg-[#EBF1EC] transition-colors"
+                    >
+                      Kitchen &amp; Bath Combo Packages
+                    </Link>
+                    <Link
+                      href="/services/custom-joinery"
+                      className="block px-4 py-2.5 text-xs uppercase tracking-wider text-[#233C2C] hover:text-[#183324] hover:bg-[#EBF1EC] transition-colors"
+                    >
+                      Custom Joinery &amp; Pantries
+                    </Link>
+                    <Link
+                      href="/services/open-plan-wall-removals"
+                      className="block px-4 py-2.5 text-xs uppercase tracking-wider text-[#233C2C] hover:text-[#183324] hover:bg-[#EBF1EC] transition-colors"
+                    >
+                      Kitchen Wall Removals
+                    </Link>
+                    <div className="border-t border-[#E5DFD5] my-1"></div>
+                    <Link
+                      href="/services"
+                      className="block px-4 py-2 text-xs font-semibold text-[#2E583D] hover:text-[#183324] transition-colors"
+                    >
+                      Explore Specialised Services &rarr;
+                    </Link>
+                  </div>
+                )}
+              </div>
+
+              <Link
+                href="/projects"
+                className="font-medium tracking-wide uppercase text-[#233C2C] hover:text-[#183324] transition-colors whitespace-nowrap"
+              >
+                Projects
+              </Link>
+              <Link
+                href="/about"
+                className="font-medium tracking-wide uppercase text-[#233C2C] hover:text-[#183324] transition-colors whitespace-nowrap"
+              >
+                About
+              </Link>
+              <Link
+                href="/building-advice"
+                className="font-medium tracking-wide uppercase text-[#233C2C] hover:text-[#183324] transition-colors whitespace-nowrap"
+              >
+                Advice
+              </Link>
+              <Link
+                href="/contact"
+                className="font-medium tracking-wide uppercase text-[#233C2C] hover:text-[#183324] transition-colors whitespace-nowrap"
+              >
+                Contact
+              </Link>
             </div>
 
-            <Link
-              href="/projects"
-              className="text-sm font-medium tracking-wide uppercase text-[#233C2C] hover:text-[#183324] transition-colors"
-            >
-              Projects
-            </Link>
-            <Link
-              href="/about"
-              className="text-sm font-medium tracking-wide uppercase text-[#233C2C] hover:text-[#183324] transition-colors"
-            >
-              About
-            </Link>
-            <Link
-              href="/building-advice"
-              className="text-sm font-medium tracking-wide uppercase text-[#233C2C] hover:text-[#183324] transition-colors"
-            >
-              Advice
-            </Link>
-            <Link
-              href="/contact"
-              className="text-sm font-medium tracking-wide uppercase text-[#233C2C] hover:text-[#183324] transition-colors"
-            >
-              Contact
-            </Link>
-          </div>
-
-          {/* Action CTA Button - Deep Forest Green */}
-          <div className="hidden lg:flex items-center gap-4">
-            <Link
-              href="/contact"
-              className="bg-[#183324] hover:bg-[#254F38] text-[#FAF7F2] font-semibold px-5 py-2.5 rounded-none text-xs uppercase tracking-widest transition-all duration-200 shadow-sm hover:shadow-md hover:-translate-y-0.5"
-            >
-              Get In Touch
-            </Link>
+            {/* Clear Divider & Sleek Resized Action CTA Button */}
+            <div className="ml-5 xl:ml-7 pl-5 xl:pl-7 border-l border-[#DDD5C8] flex items-center">
+              <Link
+                href="/contact"
+                className="bg-[#183324] hover:bg-[#254F38] text-[#FAF7F2] font-semibold px-4 py-2 rounded text-xs uppercase tracking-wider whitespace-nowrap transition-all duration-200 shadow-sm hover:shadow-md hover:-translate-y-0.5"
+              >
+                Get In Touch
+              </Link>
+            </div>
           </div>
 
           {/* Mobile hamburger button */}
