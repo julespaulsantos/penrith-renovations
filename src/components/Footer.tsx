@@ -1,6 +1,6 @@
 import React from "react";
 import Link from "next/link";
-import { Phone, Mail, ArrowUpRight } from "lucide-react";
+import { Phone, Mail, ArrowUpRight, Heart } from "lucide-react";
 
 export default function Footer() {
   return (
@@ -166,14 +166,28 @@ export default function Footer() {
         </div>
 
         {/* Bottom copyright line */}
-        <div className="pt-8 mt-8 border-t border-[#1C3828] flex flex-col sm:flex-row items-center justify-between gap-4 text-xs text-[#8DA792]">
+        <div className="pt-8 mt-8 border-t border-[#1C3828] flex flex-col lg:flex-row items-center justify-between gap-4 text-xs text-[#8DA792]">
           <p>Copyright &copy; 2026 Penrith Renovations. All rights reserved.</p>
-          <div className="flex items-center gap-6">
+          <div className="flex flex-wrap items-center justify-center lg:justify-end gap-x-6 gap-y-2">
             <span>NSW Master Builders Member</span>
             <span>HIA Registered</span>
             <Link href="/contact" className="hover:text-white transition-colors">
               Privacy Policy
             </Link>
+            <span className="hidden sm:inline text-[#2B543D]">•</span>
+            <span className="inline-flex items-center gap-1 text-[#A0BAA7]">
+              Made With{" "}
+              <Heart className="w-3.5 h-3.5 text-rose-400 fill-rose-400/25 inline-block mx-0.5 -mt-0.5" aria-hidden="true" />{" "}
+              By{" "}
+              <a
+                href="https://github.com/julespaulsantos"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="text-[#E2ECE5] hover:text-white font-medium transition-colors hover:underline decoration-[#4F775D] underline-offset-2 ml-0.5"
+              >
+                Jules Santos
+              </a>
+            </span>
           </div>
         </div>
       </div>
