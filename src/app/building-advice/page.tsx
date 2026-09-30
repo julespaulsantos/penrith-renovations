@@ -71,20 +71,21 @@ const adviceTopics = [
 
 export default function BuildingAdvicePage() {
   return (
-    <main className="pt-28 pb-20 bg-[#faf9f6]">
+    <main className="pt-28 pb-20 bg-[#FAF7F2]">
       {/* Header */}
-      <section className="bg-[#141518] text-white py-20 px-4 sm:px-8 border-b border-[#292e37]">
-        <div className="max-w-5xl mx-auto text-center">
+      <section className="bg-[#183324] text-[#FAF7F2] py-20 px-4 sm:px-8 border-b border-[#244C33] relative overflow-hidden">
+        <div className="absolute inset-0 opacity-5 pointer-events-none bg-[radial-gradient(#FAF7F2_1px,transparent_1px)] [background-size:16px_16px]"></div>
+        <div className="max-w-5xl mx-auto text-center relative z-10">
           <div className="inline-block mb-3">
-            <span className="text-xs uppercase tracking-[0.25em] text-[#c5a059] font-semibold">
+            <span className="text-xs uppercase tracking-[0.25em] text-[#8DA792] font-bold">
               Homeowner Knowledge Base
             </span>
-            <div className="h-0.5 w-12 bg-[#c5a059] mx-auto mt-1"></div>
+            <div className="h-0.5 w-12 bg-[#8DA792] mx-auto mt-1"></div>
           </div>
-          <h1 className="text-4xl sm:text-5xl lg:text-6xl font-bold uppercase tracking-tight text-white mb-6">
-            Kitchen &amp; Bathroom <span className="font-light text-zinc-400">Renovation Advice</span>
+          <h1 className="text-4xl sm:text-5xl lg:text-6xl font-bold uppercase tracking-tight text-[#FAF7F2] mb-6">
+            Kitchen &amp; Bathroom <span className="font-light text-[#A4C4AD]">Renovation Advice</span>
           </h1>
-          <p className="max-w-3xl mx-auto text-base sm:text-lg text-zinc-300 font-light leading-relaxed">
+          <p className="max-w-3xl mx-auto text-base sm:text-lg text-[#D2E2D7] font-normal leading-relaxed">
             Essential guidance on waterproofing compliance, benchtop materials, structural wall removals, and budget protections by <strong className="text-white font-semibold">NP4 Building Pty Ltd</strong>.
           </p>
         </div>
@@ -97,25 +98,25 @@ export default function BuildingAdvicePage() {
           return (
             <div
               key={index}
-              className="bg-white p-8 sm:p-10 border border-zinc-200 shadow-sm space-y-4"
+              className="bg-white p-8 sm:p-10 border border-[#E2DDD5] shadow-sm space-y-4"
             >
               <div className="flex items-center gap-3">
-                <div className="w-10 h-10 rounded bg-[#c5a059]/10 text-[#9c7832] flex items-center justify-center shrink-0">
+                <div className="w-10 h-10 rounded bg-[#E8EFE9] text-[#183324] flex items-center justify-center shrink-0">
                   <Icon className="w-5 h-5" />
                 </div>
-                <h2 className="text-xl sm:text-2xl font-bold uppercase tracking-tight text-zinc-900">
+                <h2 className="text-xl sm:text-2xl font-bold uppercase tracking-tight text-[#183324]">
                   {topic.title}
                 </h2>
               </div>
 
-              <p className="text-sm font-medium text-zinc-600 italic">
+              <p className="text-sm font-medium text-[#4F775D] italic">
                 {topic.summary}
               </p>
 
               <div className="space-y-2.5 pt-2">
                 {topic.content.map((point, pIdx) => (
-                  <div key={pIdx} className="flex items-start gap-3 text-sm text-zinc-700 leading-relaxed">
-                    <CheckCircle2 className="w-4 h-4 text-[#9c7832] shrink-0 mt-0.5" />
+                  <div key={pIdx} className="flex items-start gap-3 text-sm text-[#22352a] leading-relaxed">
+                    <CheckCircle2 className="w-4 h-4 text-[#4F775D] shrink-0 mt-0.5" />
                     <span>{point}</span>
                   </div>
                 ))}
@@ -125,22 +126,23 @@ export default function BuildingAdvicePage() {
         })}
 
         {/* Free Feasibility CTA */}
-        <div className="p-8 sm:p-10 bg-[#1f2228] text-white border border-[#323640] flex flex-col md:flex-row items-center justify-between gap-6">
-          <div className="space-y-2">
-            <h3 className="text-xl font-bold uppercase tracking-wider text-white">
+        <div className="p-8 sm:p-10 bg-[#183324] text-[#FAF7F2] border border-[#254F38] flex flex-col md:flex-row items-center justify-between gap-6 relative overflow-hidden">
+          <div className="absolute inset-0 opacity-5 pointer-events-none bg-[radial-gradient(#FAF7F2_1px,transparent_1px)] [background-size:16px_16px]"></div>
+          <div className="space-y-2 relative z-10">
+            <h3 className="text-xl font-bold uppercase tracking-wider text-[#FAF7F2]">
               Planning a kitchen or bathroom renovation?
             </h3>
-            <p className="text-sm text-zinc-300 font-light">
+            <p className="text-sm text-[#C2D6C8] font-normal">
               Send us your floorplan or book a free on-site consultation with Philmoor Galon to discuss spatial possibilities and fixed-price estimates.
             </p>
           </div>
 
           <Link
             href="/contact"
-            className="shrink-0 bg-[#c5a059] hover:bg-[#b08b47] text-zinc-950 font-bold px-8 py-4 uppercase text-xs tracking-widest transition-colors flex items-center gap-2"
+            className="shrink-0 bg-[#FAF7F2] hover:bg-white text-[#183324] font-bold px-8 py-4 uppercase text-xs tracking-widest transition-colors flex items-center gap-2 relative z-10 shadow-md"
           >
             <span>Ask Philmoor Directly</span>
-            <ArrowRight className="w-4 h-4" />
+            <ArrowRight className="w-4 h-4 text-[#4F775D]" />
           </Link>
         </div>
       </section>

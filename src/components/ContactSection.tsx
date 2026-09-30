@@ -55,56 +55,56 @@ export default function ContactSection() {
   };
 
   return (
-    <section id="contact" className="py-24 bg-[#141518] text-white">
+    <section id="contact" className="py-24 bg-[#F5F1E9] text-[#22352a]">
       <div className="max-w-7xl mx-auto px-4 sm:px-8">
         <div className="grid grid-cols-1 lg:grid-cols-12 gap-12 lg:gap-16">
-          {/* Left Column: Direct Contact Info (modeled after McGirr's contact info) */}
+          {/* Left Column: Direct Contact Info */}
           <div className="lg:col-span-5 space-y-8">
             <div>
               <div className="inline-block mb-3">
-                <span className="text-xs uppercase tracking-[0.25em] text-[#c5a059] font-semibold">
+                <span className="text-xs uppercase tracking-[0.25em] text-[#4F775D] font-bold">
                   Get In Touch
                 </span>
-                <div className="h-0.5 w-12 bg-[#c5a059] mt-1"></div>
+                <div className="h-0.5 w-12 bg-[#4F775D] mt-1"></div>
               </div>
-              <h2 className="text-3xl sm:text-4xl lg:text-5xl font-bold uppercase tracking-tight text-white mb-4">
-                Start Your <span className="font-light text-zinc-400">Project</span>
+              <h2 className="text-3xl sm:text-4xl lg:text-5xl font-bold uppercase tracking-tight text-[#183324] mb-4">
+                Start Your <span className="font-light text-[#4F775D]">Project</span>
               </h2>
-              <p className="text-sm text-zinc-300 font-light leading-relaxed">
+              <p className="text-sm text-[#55695C] font-normal leading-relaxed">
                 Whether you have architectural plans ready to quote or are simply exploring possibilities for your Penrith home, Philmoor and our team look forward to discussing your vision.
               </p>
             </div>
 
             <div className="space-y-6 pt-2">
               <div className="flex items-start gap-4">
-                <div className="w-10 h-10 rounded bg-[#22252e] border border-[#313642] flex items-center justify-center text-[#c5a059] shrink-0">
+                <div className="w-10 h-10 rounded-full bg-[#E8EFE9] border border-[#D5E3D8] flex items-center justify-center text-[#183324] shrink-0">
                   <Phone className="w-5 h-5" />
                 </div>
                 <div>
-                  <span className="text-xs uppercase tracking-widest text-zinc-400 block font-semibold">
+                  <span className="text-xs uppercase tracking-widest text-[#4F775D] block font-bold">
                     Direct Builder Line
                   </span>
                   <a
                     href="tel:0497985592"
-                    className="text-lg font-bold text-white hover:text-[#c5a059] transition-colors"
+                    className="text-lg font-bold text-[#183324] hover:text-[#4F775D] transition-colors"
                   >
                     0497 985 592
                   </a>
-                  <p className="text-xs text-zinc-400">Speak directly with Director Philmoor Galon</p>
+                  <p className="text-xs text-[#667E70]">Speak directly with Director Philmoor Galon</p>
                 </div>
               </div>
 
               <div className="flex items-start gap-4">
-                <div className="w-10 h-10 rounded bg-[#22252e] border border-[#313642] flex items-center justify-center text-[#c5a059] shrink-0">
+                <div className="w-10 h-10 rounded-full bg-[#E8EFE9] border border-[#D5E3D8] flex items-center justify-center text-[#183324] shrink-0">
                   <Mail className="w-5 h-5" />
                 </div>
                 <div>
-                  <span className="text-xs uppercase tracking-widest text-zinc-400 block font-semibold">
+                  <span className="text-xs uppercase tracking-widest text-[#4F775D] block font-bold">
                     Email Inquiries
                   </span>
                   <a
                     href="mailto:info@penrithrenovations.com.au"
-                    className="text-sm font-semibold text-white hover:text-[#c5a059] transition-colors"
+                    className="text-sm font-semibold text-[#183324] hover:text-[#4F775D] transition-colors"
                   >
                     info@penrithrenovations.com.au
                   </a>
@@ -112,48 +112,48 @@ export default function ContactSection() {
               </div>
 
               <div className="flex items-start gap-4">
-                <div className="w-10 h-10 rounded bg-[#22252e] border border-[#313642] flex items-center justify-center text-[#c5a059] shrink-0">
+                <div className="w-10 h-10 rounded-full bg-[#E8EFE9] border border-[#D5E3D8] flex items-center justify-center text-[#183324] shrink-0">
                   <MapPin className="w-5 h-5" />
                 </div>
                 <div>
-                  <span className="text-xs uppercase tracking-widest text-zinc-400 block font-semibold">
+                  <span className="text-xs uppercase tracking-widest text-[#4F775D] block font-bold">
                     Service Region
                   </span>
-                  <p className="text-sm text-zinc-300">
+                  <p className="text-sm text-[#22352a] font-medium">
                     Penrith, Glenmore Park, Jordan Springs, Jamisontown, Emu Plains &amp; Lower Blue Mountains
                   </p>
                 </div>
               </div>
 
               <div className="flex items-start gap-4">
-                <div className="w-10 h-10 rounded bg-[#22252e] border border-[#313642] flex items-center justify-center text-[#c5a059] shrink-0">
+                <div className="w-10 h-10 rounded-full bg-[#E8EFE9] border border-[#D5E3D8] flex items-center justify-center text-[#183324] shrink-0">
                   <ShieldCheck className="w-5 h-5" />
                 </div>
                 <div>
-                  <span className="text-xs uppercase tracking-widest text-zinc-400 block font-semibold">
+                  <span className="text-xs uppercase tracking-widest text-[#4F775D] block font-bold">
                     Licence &amp; Compliance
                   </span>
-                  <p className="text-sm text-zinc-300">
+                  <p className="text-sm text-[#22352a] font-medium">
                     NP4 Building Pty Ltd Licence No. 394821C
                   </p>
-                  <p className="text-xs text-zinc-400">Fully insured with Home Building Compensation Fund (HBCF)</p>
+                  <p className="text-xs text-[#667E70]">Fully insured with Home Building Compensation Fund (HBCF)</p>
                 </div>
               </div>
             </div>
           </div>
 
           {/* Right Column: Interactive Consultation Booking Form */}
-          <div className="lg:col-span-7 bg-[#1c1e24] p-6 sm:p-10 border border-[#2e333e] shadow-2xl">
+          <div className="lg:col-span-7 bg-white p-6 sm:p-10 border border-[#E2DDD5] shadow-xl">
             {status === "success" ? (
               <div className="text-center py-12 space-y-4">
-                <div className="w-16 h-16 bg-[#c5a059]/20 text-[#c5a059] rounded-full flex items-center justify-center mx-auto">
+                <div className="w-16 h-16 bg-[#E8EFE9] text-[#183324] rounded-full flex items-center justify-center mx-auto">
                   <CheckCircle2 className="w-8 h-8" />
                 </div>
-                <h3 className="text-2xl font-bold uppercase text-white">
+                <h3 className="text-2xl font-bold uppercase text-[#183324]">
                   Consultation Request Received
                 </h3>
-                <p className="text-sm text-zinc-300 max-w-md mx-auto leading-relaxed">
-                  Thank you, <strong className="text-white">{formData.name}</strong>. Philmoor Galon has received your project details and will call you within 24 hours to arrange your on-site walkthrough.
+                <p className="text-sm text-[#384C3F] max-w-md mx-auto leading-relaxed">
+                  Thank you, <strong className="text-[#183324]">{formData.name}</strong>. Philmoor Galon has received your project details and will call you within 24 hours to arrange your on-site walkthrough.
                 </p>
                 <div className="pt-4">
                   <button
@@ -170,7 +170,7 @@ export default function ContactSection() {
                         message: "",
                       });
                     }}
-                    className="text-xs uppercase tracking-widest text-[#c5a059] font-bold hover:underline"
+                    className="text-xs uppercase tracking-widest text-[#183324] font-bold hover:underline"
                   >
                     Submit another inquiry
                   </button>
@@ -178,12 +178,12 @@ export default function ContactSection() {
               </div>
             ) : (
               <form onSubmit={handleSubmit} className="space-y-5">
-                <h3 className="text-xl font-bold uppercase tracking-wider text-white border-b border-[#2d323c] pb-3">
+                <h3 className="text-xl font-bold uppercase tracking-wider text-[#183324] border-b border-[#EAE5DC] pb-3">
                   Request Free On-Site Consultation
                 </h3>
 
                 {status === "error" && (
-                  <div className="p-3 bg-red-950/60 border border-red-800 text-red-200 text-xs flex items-center gap-2">
+                  <div className="p-3 bg-red-50 border border-red-200 text-red-700 text-xs flex items-center gap-2">
                     <AlertCircle className="w-4 h-4 shrink-0" />
                     <span>{errorMessage}</span>
                   </div>
@@ -191,7 +191,7 @@ export default function ContactSection() {
 
                 <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
                   <div>
-                    <label className="block text-xs uppercase tracking-wider text-zinc-400 mb-1 font-medium">
+                    <label className="block text-xs uppercase tracking-wider text-[#4F775D] mb-1 font-bold">
                       Full Name *
                     </label>
                     <input
@@ -201,12 +201,12 @@ export default function ContactSection() {
                       value={formData.name}
                       onChange={handleChange}
                       placeholder="e.g. Sarah Jenkins"
-                      className="w-full bg-[#252831] border border-[#373c47] px-3.5 py-2.5 text-sm text-white placeholder-zinc-500 focus:outline-none focus:border-[#c5a059]"
+                      className="w-full bg-[#FAF7F2] border border-[#D8D2C5] px-3.5 py-2.5 text-sm text-[#22352a] placeholder-[#8A9C90] focus:outline-none focus:border-[#183324]"
                     />
                   </div>
 
                   <div>
-                    <label className="block text-xs uppercase tracking-wider text-zinc-400 mb-1 font-medium">
+                    <label className="block text-xs uppercase tracking-wider text-[#4F775D] mb-1 font-bold">
                       Phone Number *
                     </label>
                     <input
@@ -216,14 +216,14 @@ export default function ContactSection() {
                       value={formData.phone}
                       onChange={handleChange}
                       placeholder="e.g. 0412 345 678"
-                      className="w-full bg-[#252831] border border-[#373c47] px-3.5 py-2.5 text-sm text-white placeholder-zinc-500 focus:outline-none focus:border-[#c5a059]"
+                      className="w-full bg-[#FAF7F2] border border-[#D8D2C5] px-3.5 py-2.5 text-sm text-[#22352a] placeholder-[#8A9C90] focus:outline-none focus:border-[#183324]"
                     />
                   </div>
                 </div>
 
                 <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
                   <div>
-                    <label className="block text-xs uppercase tracking-wider text-zinc-400 mb-1 font-medium">
+                    <label className="block text-xs uppercase tracking-wider text-[#4F775D] mb-1 font-bold">
                       Email Address *
                     </label>
                     <input
@@ -233,12 +233,12 @@ export default function ContactSection() {
                       value={formData.email}
                       onChange={handleChange}
                       placeholder="e.g. sarah@example.com.au"
-                      className="w-full bg-[#252831] border border-[#373c47] px-3.5 py-2.5 text-sm text-white placeholder-zinc-500 focus:outline-none focus:border-[#c5a059]"
+                      className="w-full bg-[#FAF7F2] border border-[#D8D2C5] px-3.5 py-2.5 text-sm text-[#22352a] placeholder-[#8A9C90] focus:outline-none focus:border-[#183324]"
                     />
                   </div>
 
                   <div>
-                    <label className="block text-xs uppercase tracking-wider text-zinc-400 mb-1 font-medium">
+                    <label className="block text-xs uppercase tracking-wider text-[#4F775D] mb-1 font-bold">
                       Project Suburb
                     </label>
                     <input
@@ -247,21 +247,21 @@ export default function ContactSection() {
                       value={formData.suburb}
                       onChange={handleChange}
                       placeholder="e.g. Glenmore Park"
-                      className="w-full bg-[#252831] border border-[#373c47] px-3.5 py-2.5 text-sm text-white placeholder-zinc-500 focus:outline-none focus:border-[#c5a059]"
+                      className="w-full bg-[#FAF7F2] border border-[#D8D2C5] px-3.5 py-2.5 text-sm text-[#22352a] placeholder-[#8A9C90] focus:outline-none focus:border-[#183324]"
                     />
                   </div>
                 </div>
 
                 <div className="grid grid-cols-1 sm:grid-cols-3 gap-4">
                   <div>
-                    <label className="block text-xs uppercase tracking-wider text-zinc-400 mb-1 font-medium">
+                    <label className="block text-xs uppercase tracking-wider text-[#4F775D] mb-1 font-bold">
                       Primary Service
                     </label>
                     <select
                       name="service"
                       value={formData.service}
                       onChange={handleChange}
-                      className="w-full bg-[#252831] border border-[#373c47] px-3 py-2.5 text-xs text-white focus:outline-none focus:border-[#c5a059]"
+                      className="w-full bg-[#FAF7F2] border border-[#D8D2C5] px-3 py-2.5 text-xs text-[#22352a] focus:outline-none focus:border-[#183324]"
                     >
                       <option value="kitchen-renovations">Designer Kitchen Renovation</option>
                       <option value="bathroom-renovations">Luxury Bathroom Renovation</option>
@@ -272,14 +272,14 @@ export default function ContactSection() {
                   </div>
 
                   <div>
-                    <label className="block text-xs uppercase tracking-wider text-zinc-400 mb-1 font-medium">
+                    <label className="block text-xs uppercase tracking-wider text-[#4F775D] mb-1 font-bold">
                       Estimated Budget
                     </label>
                     <select
                       name="budget"
                       value={formData.budget}
                       onChange={handleChange}
-                      className="w-full bg-[#252831] border border-[#373c47] px-3 py-2.5 text-xs text-white focus:outline-none focus:border-[#c5a059]"
+                      className="w-full bg-[#FAF7F2] border border-[#D8D2C5] px-3 py-2.5 text-xs text-[#22352a] focus:outline-none focus:border-[#183324]"
                     >
                       <option value="$50k - $100k">$50k - $100k</option>
                       <option value="$100k - $250k">$100k - $250k</option>
@@ -289,14 +289,14 @@ export default function ContactSection() {
                   </div>
 
                   <div>
-                    <label className="block text-xs uppercase tracking-wider text-zinc-400 mb-1 font-medium">
+                    <label className="block text-xs uppercase tracking-wider text-[#4F775D] mb-1 font-bold">
                       Timeframe
                     </label>
                     <select
                       name="timeframe"
                       value={formData.timeframe}
                       onChange={handleChange}
-                      className="w-full bg-[#252831] border border-[#373c47] px-3 py-2.5 text-xs text-white focus:outline-none focus:border-[#c5a059]"
+                      className="w-full bg-[#FAF7F2] border border-[#D8D2C5] px-3 py-2.5 text-xs text-[#22352a] focus:outline-none focus:border-[#183324]"
                     >
                       <option value="Immediately">Immediately (Ready)</option>
                       <option value="1-3 months">Within 1-3 Months</option>
@@ -307,7 +307,7 @@ export default function ContactSection() {
                 </div>
 
                 <div>
-                  <label className="block text-xs uppercase tracking-wider text-zinc-400 mb-1 font-medium">
+                  <label className="block text-xs uppercase tracking-wider text-[#4F775D] mb-1 font-bold">
                     Tell us about your project &amp; ideas
                   </label>
                   <textarea
@@ -316,20 +316,20 @@ export default function ContactSection() {
                     value={formData.message}
                     onChange={handleChange}
                     placeholder="E.g. We want to renovate our kitchen with an open-plan island bench and butler's pantry, plus upgrade the master ensuite with a walk-in double shower and freestanding stone bath..."
-                    className="w-full bg-[#252831] border border-[#373c47] px-3.5 py-2.5 text-sm text-white placeholder-zinc-500 focus:outline-none focus:border-[#c5a059]"
+                    className="w-full bg-[#FAF7F2] border border-[#D8D2C5] px-3.5 py-2.5 text-sm text-[#22352a] placeholder-[#8A9C90] focus:outline-none focus:border-[#183324]"
                   ></textarea>
                 </div>
 
                 <button
                   type="submit"
                   disabled={status === "submitting"}
-                  className="w-full bg-[#c5a059] hover:bg-[#b08b47] disabled:opacity-50 text-zinc-950 font-bold py-4 text-xs uppercase tracking-widest transition-all duration-200 shadow-xl flex items-center justify-center gap-2"
+                  className="w-full bg-[#183324] hover:bg-[#254F38] disabled:opacity-50 text-white font-bold py-4 text-xs uppercase tracking-widest transition-all duration-200 shadow-md hover:shadow-lg flex items-center justify-center gap-2"
                 >
-                  <Send className="w-4 h-4" />
+                  <Send className="w-4 h-4 text-[#8DA792]" />
                   <span>{status === "submitting" ? "Sending Request..." : "Request Site Consultation"}</span>
                 </button>
 
-                <p className="text-[11px] text-zinc-400 text-center">
+                <p className="text-[11px] text-[#667E70] text-center">
                   Your information is protected. We will never share your details.
                 </p>
               </form>

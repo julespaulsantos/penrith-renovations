@@ -42,27 +42,27 @@ const steps = [
 
 export default function CollaborativeProcess() {
   return (
-    <section className="py-24 bg-[#181a1f] text-white border-t border-[#292e37]">
+    <section className="py-24 bg-[#F5F1E9] text-[#1E3B29] border-t border-[#E5DFD5]">
       <div className="max-w-7xl mx-auto px-4 sm:px-8">
         {/* Section Header */}
         <div className="max-w-3xl mb-16">
           <div className="inline-block mb-3">
-            <span className="text-xs uppercase tracking-[0.25em] text-[#c5a059] font-semibold">
+            <span className="text-xs uppercase tracking-[0.25em] text-[#2E583D] font-semibold">
               The Specialist Roadmap
             </span>
-            <div className="h-0.5 w-12 bg-[#c5a059] mt-1"></div>
+            <div className="h-0.5 w-12 bg-[#4F775D] mt-1"></div>
           </div>
 
-          <h2 className="text-3xl sm:text-4xl lg:text-5xl font-bold uppercase tracking-tight text-white mb-6">
-            A Collaborative <span className="font-light text-zinc-400">Renovation Process</span>
+          <h2 className="text-3xl sm:text-4xl lg:text-5xl font-bold uppercase tracking-tight text-[#183324] mb-6">
+            A Collaborative <span className="font-light text-[#4F775D]">Renovation Process</span>
           </h2>
 
-          <div className="space-y-4 text-zinc-300 font-light text-base sm:text-lg leading-relaxed">
+          <div className="space-y-4 text-[#2C4033] font-light text-base sm:text-lg leading-relaxed">
             <p>
-              Renovating wet areas like kitchens and bathrooms requires flawless trade coordination and uncompromising waterproofing. At <strong className="text-white font-semibold">NP4 Building Pty Ltd</strong>, we work hand-in-hand with you to choose durable materials and optimize ergonomics while protecting your budget.
+              Renovating wet areas like kitchens and bathrooms requires flawless trade coordination and uncompromising waterproofing. At <strong className="text-[#183324] font-semibold">NP4 Building Pty Ltd</strong>, we work hand-in-hand with you to choose durable materials and optimize ergonomics while protecting your budget.
             </p>
             <p>
-              Our director, <strong className="text-white font-semibold">Philmoor Galon</strong>, takes a hands-on approach to every build &mdash; personally overseeing structural framing, plumbing pressure tests, waterproofing inspections, and stone templating to guarantee perfection.
+              Our director, <strong className="text-[#183324] font-semibold">Philmoor Galon</strong>, takes a hands-on approach to every build &mdash; personally overseeing structural framing, plumbing pressure tests, waterproofing inspections, and stone templating to guarantee perfection.
             </p>
           </div>
         </div>
@@ -74,22 +74,22 @@ export default function CollaborativeProcess() {
             return (
               <div
                 key={idx}
-                className="bg-[#21242b] p-6 border border-[#313642] relative group hover:border-[#c5a059] transition-all duration-300 flex flex-col justify-between"
+                className="bg-[#FAF7F2] p-6 border border-[#E2DDD5] relative group hover:border-[#183324] transition-all duration-300 flex flex-col justify-between shadow-sm hover:shadow-md"
               >
                 <div className="flex items-center justify-between mb-6">
-                  <span className="text-3xl font-extrabold text-[#c5a059]/40 group-hover:text-[#c5a059] transition-colors font-mono">
+                  <span className="text-3xl font-extrabold text-[#4F775D]/40 group-hover:text-[#183324] transition-colors font-mono">
                     {step.number}
                   </span>
-                  <div className="w-10 h-10 rounded bg-[#2b2f3a] group-hover:bg-[#c5a059]/20 flex items-center justify-center text-[#c5a059] transition-colors">
+                  <div className="w-10 h-10 rounded bg-[#E8EFE9] group-hover:bg-[#183324] flex items-center justify-center text-[#183324] group-hover:text-[#FAF7F2] transition-colors">
                     <Icon className="w-5 h-5" />
                   </div>
                 </div>
 
                 <div>
-                  <h3 className="text-base font-bold uppercase tracking-wider text-white mb-3">
+                  <h3 className="text-base font-bold uppercase tracking-wider text-[#183324] mb-3">
                     {step.title}
                   </h3>
-                  <p className="text-xs text-zinc-400 leading-relaxed font-light">
+                  <p className="text-xs text-[#3B5243] leading-relaxed font-light">
                     {step.description}
                   </p>
                 </div>
@@ -98,19 +98,19 @@ export default function CollaborativeProcess() {
           })}
         </div>
 
-        {/* Bottom CTA Box */}
-        <div className="mt-14 p-8 bg-[#22262e] border border-[#373e4b] flex flex-col sm:flex-row items-center justify-between gap-6">
+        {/* Bottom CTA Box in Forest Green */}
+        <div className="mt-14 p-8 bg-[#183324] border border-[#274B35] text-white flex flex-col sm:flex-row items-center justify-between gap-6 shadow-lg">
           <div>
-            <h4 className="text-lg font-bold text-white uppercase tracking-wider">
+            <h4 className="text-lg font-bold text-[#FAF7F2] uppercase tracking-wider">
               Ready to upgrade your kitchen or bathroom?
             </h4>
-            <p className="text-sm text-zinc-400 mt-1">
+            <p className="text-sm text-[#C2D6C8] mt-1 font-light">
               Philmoor is happy to review your ideas, layout options, or visit your property for a complimentary on-site feasibility appraisal.
             </p>
           </div>
           <Link
             href="/contact"
-            className="shrink-0 bg-[#c5a059] hover:bg-[#b08b47] text-zinc-950 font-bold px-6 py-3 uppercase text-xs tracking-widest transition-colors"
+            className="shrink-0 bg-[#E8EFE9] hover:bg-white text-[#183324] font-bold px-6 py-3 uppercase text-xs tracking-widest transition-colors shadow-sm"
           >
             Schedule Consultation
           </Link>

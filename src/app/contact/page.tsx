@@ -10,20 +10,21 @@ export const metadata = {
 
 export default function ContactPage() {
   return (
-    <main className="pt-28 pb-10 bg-[#141518]">
+    <main className="pt-28 pb-10 bg-[#FAF7F2]">
       {/* Header */}
-      <section className="bg-[#141518] text-white py-16 px-4 sm:px-8 border-b border-[#292e37]">
-        <div className="max-w-5xl mx-auto text-center">
+      <section className="bg-[#183324] text-[#FAF7F2] py-16 px-4 sm:px-8 border-b border-[#244C33] relative overflow-hidden">
+        <div className="absolute inset-0 opacity-5 pointer-events-none bg-[radial-gradient(#FAF7F2_1px,transparent_1px)] [background-size:16px_16px]"></div>
+        <div className="max-w-5xl mx-auto text-center relative z-10">
           <div className="inline-block mb-3">
-            <span className="text-xs uppercase tracking-[0.25em] text-[#c5a059] font-semibold">
+            <span className="text-xs uppercase tracking-[0.25em] text-[#8DA792] font-bold">
               Get Started
             </span>
-            <div className="h-0.5 w-12 bg-[#c5a059] mx-auto mt-1"></div>
+            <div className="h-0.5 w-12 bg-[#8DA792] mx-auto mt-1"></div>
           </div>
-          <h1 className="text-4xl sm:text-5xl lg:text-6xl font-bold uppercase tracking-tight text-white mb-6">
-            Contact &amp; <span className="font-light text-zinc-400">Consultation</span>
+          <h1 className="text-4xl sm:text-5xl lg:text-6xl font-bold uppercase tracking-tight text-[#FAF7F2] mb-6">
+            Contact &amp; <span className="font-light text-[#A4C4AD]">Consultation</span>
           </h1>
-          <p className="max-w-3xl mx-auto text-base sm:text-lg text-zinc-300 font-light leading-relaxed">
+          <p className="max-w-3xl mx-auto text-base sm:text-lg text-[#D2E2D7] font-normal leading-relaxed">
             Ready to bring your kitchen or bathroom vision to life? Contact director Philmoor Galon directly or complete the form below to book your free on-site feasibility inspection.
           </p>
         </div>
