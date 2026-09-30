@@ -23,11 +23,11 @@ export default function HomePage() {
       {/* 3. Building Seamless Homes Section */}
       <SeamlessHomes />
 
-      {/* 4. A Collaborative Build Process (5 Steps) */}
-      <CollaborativeProcess />
-
-      {/* 5. Interactive Before & After Renovation Slider */}
+      {/* 4. Interactive Before & After Renovation Slider */}
       <BeforeAfterSlider />
+
+      {/* 5. A Collaborative Build Process (5 Steps) */}
+      <CollaborativeProcess />
 
       {/* 6. Featured Projects Showcase (4-Column Grid + Modals) */}
       <ProjectsShowcase limit={4} />
