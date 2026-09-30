@@ -79,8 +79,8 @@ export default function SeamlessHomes() {
           <div className="lg:col-span-6 relative">
             <div className="relative aspect-[4/3] sm:aspect-[16/11] rounded shadow-2xl overflow-hidden group">
               <img
-                src="https://images.unsplash.com/photo-1556911220-e15b29be8c8f?auto=format&fit=crop&w=1200&q=80"
-                alt="Luxury kitchen renovation with waterfall island in Penrith"
+                src="/projects/real/aj-kitchen-after.jpg"
+                alt="Luxury open-concept kitchen renovation with statement island in Penrith"
                 className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-105"
               />
               <div className="absolute inset-0 bg-gradient-to-t from-black/60 via-transparent to-transparent opacity-80" />
@@ -88,8 +88,8 @@ export default function SeamlessHomes() {
                 <div className="text-xs uppercase tracking-widest text-[#c5a059] font-medium mb-1">
                   Featured Renovation by NP4 Building Pty Ltd
                 </div>
-                <div className="text-lg font-bold">The Jamisontown Open Kitchen &amp; Butler&apos;s Pantry</div>
-                <div className="text-xs text-zinc-300">Custom Timber Joinery, Stone Benchtops &amp; Wall Removal</div>
+                <div className="text-lg font-bold">Penrith Open-Concept Living &amp; Island Kitchen</div>
+                <div className="text-xs text-zinc-300">Structural Wall Removal, Waterfall Stone &amp; Acoustic Timber Slat Wall</div>
               </div>
             </div>
 

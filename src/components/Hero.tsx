@@ -6,24 +6,24 @@ import { ArrowRight, ShieldCheck, Award, Ruler, CheckCircle2, Sparkles } from "l
 
 const heroSlides = [
   {
-    image: "https://images.unsplash.com/photo-1556911220-e15b29be8c8f?auto=format&fit=crop&w=2000&q=85",
-    caption: "Bespoke Chef's Kitchen with Waterfall Island",
-    location: "Jamisontown, Penrith",
+    image: "/projects/real/aj-kitchen-after.jpg",
+    caption: "Open-Concept Living & Statement Island Kitchen",
+    location: "Penrith / Jamisontown",
   },
   {
-    image: "https://images.unsplash.com/photo-1552321554-5fefe8c9ef14?auto=format&fit=crop&w=2000&q=85",
-    caption: "Travertine Spa Ensuite with Freestanding Bath",
-    location: "Leonay",
-  },
-  {
-    image: "https://images.unsplash.com/photo-1600585154526-990dced4db0d?auto=format&fit=crop&w=2000&q=85",
-    caption: "Architectural Kitchen with Scullery & Butler's Pantry",
+    image: "/projects/real/lyn-bath-after.jpg",
+    caption: "Fluted Oak Ensuite with Pill LED Mirror & Walk-In Shower",
     location: "Glenmore Park",
   },
   {
-    image: "https://images.unsplash.com/photo-1584622650111-993a426fbf0a?auto=format&fit=crop&w=2000&q=85",
-    caption: "Curbless Double Rain Shower & Floating Oak Vanity",
-    location: "Jordan Springs",
+    image: "/projects/real/perlie-kitchen-after.jpg",
+    caption: "Coastal Calacatta Waterfall Island & Herringbone Splashback",
+    location: "Glenmore Park",
+  },
+  {
+    image: "/projects/real/mary-master-bath-after.jpg",
+    caption: "Architectural Freestanding Bath & Curbless Wet Room",
+    location: "Western Sydney",
   },
 ];
 

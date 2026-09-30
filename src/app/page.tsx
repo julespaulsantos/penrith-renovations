@@ -3,6 +3,7 @@ import Hero from "@/components/Hero";
 import VisionBanner from "@/components/VisionBanner";
 import SeamlessHomes from "@/components/SeamlessHomes";
 import CollaborativeProcess from "@/components/CollaborativeProcess";
+import BeforeAfterSlider from "@/components/BeforeAfterSlider";
 import ProjectsShowcase from "@/components/ProjectsShowcase";
 import StressFreeBanner from "@/components/StressFreeBanner";
 import ServicesShowcase from "@/components/ServicesShowcase";
@@ -25,7 +26,10 @@ export default function HomePage() {
       {/* 4. A Collaborative Build Process (5 Steps) */}
       <CollaborativeProcess />
 
-      {/* 5. Featured Projects Showcase (4-Column Grid + Modals) */}
+      {/* 5. Interactive Before & After Renovation Slider */}
+      <BeforeAfterSlider />
+
+      {/* 6. Featured Projects Showcase (4-Column Grid + Modals) */}
       <ProjectsShowcase limit={4} />
 
       {/* 6. Stress Free Building Journey Banner */}

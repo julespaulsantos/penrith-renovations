@@ -18,8 +18,7 @@ export const servicesData: ServiceItem[] = [
       "Show-stopping culinary spaces featuring bespoke joinery, statement stone islands, and integrated European appliances.",
     fullDesc:
       "As kitchen renovation specialists, NP4 Building Pty Ltd transforms outdated, boxed-in kitchens into luminous, open-plan culinary hubs. We manage every single trade—from structural wall removals and electrical re-wiring to laser-measured stone fabrication and custom joinery—delivering a seamless, stress-free build.",
-    heroImage:
-      "https://images.unsplash.com/photo-1556911220-e15b29be8c8f?auto=format&fit=crop&w=1600&q=85",
+    heroImage: "/projects/real/perlie-kitchen-after.jpg",
     features: [
       "Custom 2PAC, Polytec, and natural timber veneer cabinetry",
       "Engineered stone, sintered porcelain, and natural marble waterfall islands",
@@ -50,8 +49,7 @@ export const servicesData: ServiceItem[] = [
       "Hotel-inspired spa sanctuaries with curbless walk-in showers, freestanding baths, and 10-year certified waterproofing.",
     fullDesc:
       "Turn your bathroom into a private sanctuary. NP4 Building Pty Ltd specialises in bespoke bathroom renovations, master ensuites, and powder rooms throughout Penrith. We pair exquisite artisan tiling with state-of-the-art waterproofing exceeding Australian Standard AS 3740.",
-    heroImage:
-      "https://images.unsplash.com/photo-1552321554-5fefe8c9ef14?auto=format&fit=crop&w=1600&q=85",
+    heroImage: "/projects/real/lyn-bath-after.jpg",
     features: [
       "Multi-stage certified waterproofing backed by a 10-year written warranty",
       "Curbless walk-in showers with concealed linear strip drains",
@@ -82,8 +80,7 @@ export const servicesData: ServiceItem[] = [
       "Maximise value, cohesion, and cost savings by renovating your kitchen and bathrooms simultaneously.",
     fullDesc:
       "Our most popular renovation option for Penrith homeowners. Renovating your kitchen, main bathroom, ensuite, and laundry in a single synchronized project saves up to 15% on trade mobilization and ensures matching material palettes across your home.",
-    heroImage:
-      "https://images.unsplash.com/photo-1600585154526-990dced4db0d?auto=format&fit=crop&w=1600&q=85",
+    heroImage: "/projects/real/irene-laundry-bath-after.jpg",
     features: [
       "Unified material and stone palette connecting kitchen, bathrooms, and laundry",
       "Synchronised trade scheduling minimising total renovation downtime",
@@ -113,8 +110,7 @@ export const servicesData: ServiceItem[] = [
       "Tailor-made kitchen cabinetry, walk-in pantries, custom laundry suites, and floating vanities.",
     fullDesc:
       "Exceptional kitchens and bathrooms rely on superior cabinetry. NP4 Building Pty Ltd manufactures custom joinery tailored down to the millimetre, incorporating premium Blum soft-close hardware, pull-out pantry larders, and concealed LED illumination.",
-    heroImage:
-      "https://images.unsplash.com/photo-1507089947368-19c1da9775ae?auto=format&fit=crop&w=1600&q=85",
+    heroImage: "/projects/real/edger-kitchen-after.jpg",
     features: [
       "Custom kitchen islands, fluted timber profiles, and breakfast bars",
       "Integrated butler's pantries with secondary sinks and prep surfaces",
@@ -144,8 +140,7 @@ export const servicesData: ServiceItem[] = [
       "Knocking down load-bearing walls to merge dark, isolated kitchens with bright dining and living zones.",
     fullDesc:
       "Most older homes in the Penrith district suffer from small, closed-off kitchens. As licensed builders, NP4 Building Pty Ltd calculates structural loads, coordinates engineering certification, and installs flush-mounted steel beams so your new kitchen flows seamlessly into your living areas.",
-    heroImage:
-      "https://images.unsplash.com/photo-1600566753376-12c8ab7fb75b?auto=format&fit=crop&w=1600&q=85",
+    heroImage: "/projects/real/aj-kitchen-after.jpg",
     features: [
       "Structural load-bearing wall removal and steel beam (RSJ) installation",
       "Engineered certification and council/certifier documentation",

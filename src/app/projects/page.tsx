@@ -1,4 +1,5 @@
 import React from "react";
+import BeforeAfterSlider from "@/components/BeforeAfterSlider";
 import ProjectsShowcase from "@/components/ProjectsShowcase";
 import StressFreeBanner from "@/components/StressFreeBanner";
 
@@ -28,6 +29,9 @@ export default function ProjectsPage() {
           </p>
         </div>
       </section>
+
+      {/* Interactive Before & After Slider Showcase */}
+      <BeforeAfterSlider />
 
       {/* Full Projects Showcase without limit */}
       <ProjectsShowcase />
