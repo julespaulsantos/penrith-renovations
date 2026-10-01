@@ -25,7 +25,7 @@ export default function SeamlessHomes() {
                 The kitchen and bathroom are the most technically demanding spaces in any home. As specialised builders, <strong className="text-[#183324] font-semibold">NP4 Building Pty Ltd</strong> blends structural carpentry, custom joinery, and certified waterproofing to create spaces that look breathtaking and endure for decades.
               </p>
               <p>
-                Whether you need to remove load-bearing masonry walls to expand your kitchen into an open-plan entertainer&apos;s paradise, or convert a dated bathroom into a hotel-calibre ensuite with curbless showers and heated travertine, director <strong className="text-[#183324] font-semibold">Philmorr Galon</strong> manages every stage on site.
+                Whether you need to remove load-bearing masonry walls to expand your kitchen into an open-plan entertainer&apos;s paradise, or convert a dated bathroom into a hotel-calibre ensuite with curbless showers and heated travertine, manager <strong className="text-[#183324] font-semibold">Philmorr Galon</strong> manages every stage on site.
               </p>
             </div>
 
@@ -101,7 +101,7 @@ export default function SeamlessHomes() {
             <div className="hidden sm:block absolute -bottom-6 -left-6 bg-[#183324] text-[#FAF7F2] p-5 sm:p-6 rounded shadow-xl border border-[#2B543D] max-w-xs z-10">
               <div className="text-2xl font-bold text-[#A3C2AD]">NP4 Building</div>
               <div className="text-xs uppercase tracking-widest text-[#B5CCC0] mt-0.5">
-                Director-Led Supervision
+                Manager-Led Supervision
               </div>
               <div className="text-xs text-[#E4EDE7] mt-2 leading-relaxed">
                 Every kitchen and bathroom is directly overseen on site by licensed builder Philmorr Galon.

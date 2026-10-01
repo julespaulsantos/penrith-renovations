@@ -30,7 +30,7 @@ export default function AboutPage() {
         </div>
       </section>
 
-      {/* Main Director Story */}
+      {/* Main Manager Story */}
       <section className="py-20 max-w-7xl mx-auto px-4 sm:px-8">
         <div className="grid grid-cols-1 lg:grid-cols-12 gap-12 items-center">
           <div className="lg:col-span-6 space-y-6 text-[#22352a]">
@@ -39,11 +39,11 @@ export default function AboutPage() {
             </h2>
 
             <p className="text-base sm:text-lg leading-relaxed text-[#3D5245] font-normal">
-              Unlike volume building corporations where wet-area renovations are subcontracted out to impersonal third parties, NP4 Building Pty Ltd operates on a core standard: <strong className="text-[#183324]">specialised craftsmanship with the director personally on site daily.</strong>
+              Unlike volume building corporations where wet-area renovations are subcontracted out to impersonal third parties, NP4 Building Pty Ltd operates on a core standard: <strong className="text-[#183324]">specialised craftsmanship with the manager personally on site daily.</strong>
             </p>
 
             <p className="text-base leading-relaxed text-[#3D5245] font-normal">
-              Our director, Philmorr Galon, brings over 18 years of specialized carpentry, custom joinery, and residential building experience. Philmorr personally oversees spatial design, structural wall removals to open up kitchens, and double-layer waterproofing applications certified strictly to Australian Standard AS 3740.
+              Our manager, Philmorr Galon, brings over 18 years of specialized carpentry, custom joinery, and residential building experience. Philmorr personally oversees spatial design, structural wall removals to open up kitchens, and double-layer waterproofing applications certified strictly to Australian Standard AS 3740.
             </p>
 
             <p className="text-base leading-relaxed text-[#3D5245] font-normal">
@@ -73,7 +73,7 @@ export default function AboutPage() {
             <div className="aspect-[4/5] rounded overflow-hidden shadow-2xl border border-[#E2DDD5]">
               <img
                 src="https://images.unsplash.com/photo-1556911220-e15b29be8c8f?auto=format&fit=crop&w=1200&q=80"
-                alt="Philmorr Galon, Director of NP4 Building Pty Ltd overseeing a luxury kitchen build"
+                alt="Philmorr Galon, Manager of NP4 Building Pty Ltd overseeing a luxury kitchen build"
                 className="w-full h-full object-cover"
               />
             </div>

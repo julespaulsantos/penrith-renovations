@@ -87,7 +87,7 @@ export default function Hero() {
 
           {/* Body narrative with heavy emphasis on Kitchen & Bathroom expertise */}
           <p className="max-w-3xl mx-auto text-xs sm:text-sm text-[#2C4033] leading-relaxed font-normal mb-5 sm:mb-6">
-            From show-stopping entertainer kitchens with statement stone islands to spa-inspired bathroom sanctuaries with certified waterproofing, <strong className="text-[#183324] font-semibold">NP4 Building Pty Ltd</strong> delivers precision craftsmanship across Penrith and Western Sydney. Led personally by director <strong className="text-[#183324] font-semibold">Philmorr Galon</strong>, we bring custom joinery, structural open-plan conversions, and fixed-price certainty to every project.
+            From show-stopping entertainer kitchens with statement stone islands to spa-inspired bathroom sanctuaries with certified waterproofing, <strong className="text-[#183324] font-semibold">NP4 Building Pty Ltd</strong> delivers precision craftsmanship across Penrith and Western Sydney. Led personally by manager <strong className="text-[#183324] font-semibold">Philmorr Galon</strong>, we bring custom joinery, structural open-plan conversions, and fixed-price certainty to every project.
           </p>
 
           {/* CTA Buttons */}
@@ -142,7 +142,7 @@ export default function Hero() {
             <div className="flex items-center gap-2.5 text-[#2C4033]">
               <Ruler className="w-5 h-5 text-[#4F775D] shrink-0" />
               <div>
-                <div className="text-xs font-bold text-[#183324] uppercase tracking-wider">Director On-Site Daily</div>
+                <div className="text-xs font-bold text-[#183324] uppercase tracking-wider">Manager On-Site Daily</div>
                 <div className="text-[10px] sm:text-[11px] text-[#5A7363]">Philmorr Galon Supervising</div>
               </div>
             </div>

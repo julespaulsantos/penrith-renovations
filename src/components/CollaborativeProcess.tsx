@@ -62,7 +62,7 @@ export default function CollaborativeProcess() {
               Renovating wet areas like kitchens and bathrooms requires flawless trade coordination and uncompromising waterproofing. At <strong className="text-[#183324] font-semibold">NP4 Building Pty Ltd</strong>, we work hand-in-hand with you to choose durable materials and optimize ergonomics while protecting your budget.
             </p>
             <p>
-              Our director, <strong className="text-[#183324] font-semibold">Philmorr Galon</strong>, takes a hands-on approach to every build &mdash; personally overseeing structural framing, plumbing pressure tests, waterproofing inspections, and stone templating to guarantee perfection.
+              Our manager, <strong className="text-[#183324] font-semibold">Philmorr Galon</strong>, takes a hands-on approach to every build &mdash; personally overseeing structural framing, plumbing pressure tests, waterproofing inspections, and stone templating to guarantee perfection.
             </p>
           </div>
         </div>

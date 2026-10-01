@@ -28,7 +28,7 @@ export const metadata: Metadata = {
   openGraph: {
     title: "Penrith Renovations | Kitchen & Bathroom Specialists",
     description:
-      "Transform your kitchen and bathroom with NP4 Building Pty Ltd. Personalised director-led service from concept to completion across Penrith and Western Sydney.",
+      "Transform your kitchen and bathroom with NP4 Building Pty Ltd. Personalised manager-led service from concept to completion across Penrith and Western Sydney.",
     url: "https://penrithrenovations.com.au",
     siteName: "Penrith Renovations",
     locale: "en_AU",

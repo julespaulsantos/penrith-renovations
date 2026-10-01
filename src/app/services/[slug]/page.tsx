@@ -139,7 +139,7 @@ export default async function ServiceDetailPage({ params }: ServicePageProps) {
                 <Clock className="w-5 h-5 text-[#4F775D] shrink-0" />
                 <div>
                   <strong className="text-[#183324] block uppercase tracking-wider mb-0.5">
-                    Director Hands-On Daily
+                    Manager Hands-On Daily
                   </strong>
                   Philmorr Galon personally inspects and oversees works on site each day.
                 </div>
