@@ -63,7 +63,7 @@ export default function AboutPage() {
                 <Award className="w-8 h-8 text-[#4F775D]" />
                 <div>
                   <div className="font-bold text-xs uppercase text-[#183324]">Guaranteed Quality</div>
-                  <div className="text-xs text-[#667E70]">10-Year Waterproofing Warranty</div>
+                  <div className="text-xs text-[#667E70]">5-Year Waterproofing Warranty</div>
                 </div>
               </div>
             </div>

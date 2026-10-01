@@ -119,7 +119,7 @@ export default async function ServiceDetailPage({ params }: ServicePageProps) {
                 <ShieldCheck className="w-5 h-5 text-[#4F775D] shrink-0" />
                 <div>
                   <strong className="text-[#183324] block uppercase tracking-wider mb-0.5">
-                    10-Year Structural Guarantee
+                    5-Year Structural Guarantee
                   </strong>
                   Fully certified construction adhering to the highest Australian Standards (BCA/NCC).
                 </div>

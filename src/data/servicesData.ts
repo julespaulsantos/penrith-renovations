@@ -46,12 +46,12 @@ export const servicesData: ServiceItem[] = [
     slug: "bathroom-renovations",
     title: "Luxury Bathroom & Ensuite Renovations",
     shortDesc:
-      "Hotel-inspired spa sanctuaries with curbless walk-in showers, freestanding baths, and 10-year certified waterproofing.",
+      "Hotel-inspired spa sanctuaries with curbless walk-in showers, freestanding baths, and 5-year certified waterproofing.",
     fullDesc:
       "Turn your bathroom into a private sanctuary. NP4 Building Pty Ltd specialises in bespoke bathroom renovations, master ensuites, and powder rooms throughout Penrith. We pair exquisite artisan tiling with state-of-the-art waterproofing exceeding Australian Standard AS 3740.",
     heroImage: "/projects/real/lyn-bath-after.jpg",
     features: [
-      "Multi-stage certified waterproofing backed by a 10-year written warranty",
+      "Multi-stage certified waterproofing backed by a 5-year written warranty",
       "Curbless walk-in showers with concealed linear strip drains",
       "Floating timber vanities with stone tops and recessed LED accent lighting",
       "Under-tile electric floor heating and heated towel rails",

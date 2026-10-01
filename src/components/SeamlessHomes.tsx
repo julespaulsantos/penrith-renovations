@@ -41,7 +41,7 @@ export default function SeamlessHomes() {
                 <span className="w-5 h-5 rounded-full bg-[#E8EFE9] flex items-center justify-center text-[#183324]">
                   <Check className="w-3.5 h-3.5" />
                 </span>
-                10-Year Certified Waterproofing
+                5-Year Certified Waterproofing
               </div>
               <div className="flex items-center gap-2.5 text-sm font-medium text-[#22352A]">
                 <span className="w-5 h-5 rounded-full bg-[#E8EFE9] flex items-center justify-center text-[#183324]">

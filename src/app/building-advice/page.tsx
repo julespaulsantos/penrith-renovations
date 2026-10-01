@@ -18,7 +18,7 @@ const adviceTopics = [
     content: [
       "In NSW, bathroom waterproofing must strictly comply with Australian Standard AS 3740 (Waterproofing of domestic wet areas).",
       "We apply a Class III dual-layer elastomeric polyurethane membrane with bond-breaker tape on all wall-floor junctions, hob transitions, and internal corners.",
-      "Every bathroom completed by NP4 Building Pty Ltd receives photographic verification and a formal 10-year waterproofing warranty certificate.",
+      "Every bathroom completed by NP4 Building Pty Ltd receives photographic verification and a formal 5-year waterproofing warranty certificate.",
       "All shower floor screeds are laid with precise gradients directing water directly into linear strip drains to eliminate puddling.",
     ],
   },

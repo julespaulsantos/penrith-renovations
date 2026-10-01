@@ -16,7 +16,7 @@ A modern, high-converting website for **Penrith Renovations** by **NP4 Building 
    - Headline: *"Kitchen & Bathroom Renovations"*
    - Subtitle: *"Specialist Wet-Area Craftsmanship by NP4 Building Pty Ltd"*
    - Copy: Focus on bespoke cabinetry, luxury stone benchtops, AS 3740 waterproofed retreats, and licensed structural wall removals.
-   - Trust highlights: Fixed-Price Guarantee, 10-Year Warranty, Director On-Site (Philmorr Galon).
+   - Trust highlights: Fixed-Price Guarantee,  Warranty, Director On-Site (Philmorr Galon).
 
 3. **Core Philosophy Banner**:
    - *"Whether you're dreaming of an open-plan chef's kitchen, a hotel-inspired bathroom sanctuary, or a complete wet-area transformation, NP4 Building Pty Ltd has the licensed craftsmanship and design vision to make it a reality."*
@@ -29,7 +29,7 @@ A modern, high-converting website for **Penrith Renovations** by **NP4 Building 
    - 02. Detailed Design & Material Selection (Cabinetry, tile, stone & tapware)
    - 03. Transparent Fixed-Price Tender (Zero hidden variations)
    - 04. Director-Led Wet-Area Construction (Daily supervision by Philmorr Galon)
-   - 05. Detailed Handover & 10-Year Waterproofing Warranty
+   - 05. Detailed Handover & 5-Year Waterproofing Warranty
 
 6. **Recent Projects Showcase (Interactive Portfolio Grid)**:
    - Filterable by *All Projects, Designer Kitchens, Luxury Bathrooms, Kitchen & Bath Combos*.

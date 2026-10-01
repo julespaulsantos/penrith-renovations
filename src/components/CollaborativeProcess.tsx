@@ -36,7 +36,7 @@ const steps = [
     icon: Sparkles,
     title: "Custom Joinery & Handover",
     description:
-      "Laser-templated stone benchtops, custom soft-close cabinetry, appliance commissioning, and our 10-year written warranty.",
+      "Laser-templated stone benchtops, custom soft-close cabinetry, appliance commissioning, and our  written warranty.",
   },
 ];
 
