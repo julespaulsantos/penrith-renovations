@@ -135,18 +135,9 @@ export default function Footer() {
             </p>
             <div className="flex flex-wrap gap-1.5 text-[11px]">
               {[
-                "Penrith",
-                "Glenmore Park",
-                "Jordan Springs",
-                "Jamisontown",
-                "Emu Plains",
-                "Leonay",
-                "Mulgoa",
-                "Cranebrook",
-                "South Penrith",
-                "Regentville",
-                "Lapstone",
-                "Springwood",
+                "Western Sydney",
+                "South Western Sydney",
+                "Eastern Sydney",
               ].map((suburb) => (
                 <span
                   key={suburb}
