@@ -136,7 +136,7 @@ export default function ContactSection() {
                   <p className="text-sm text-[#22352a] font-medium">
                     NP4 Building Pty Ltd Licence No. 336447C
                   </p>
-                  <p className="text-xs text-[#667E70]">Fully insured with Home Building Compensation Fund (HBCF)</p>
+                  <p className="text-xs text-[#667E70]">Fully insured</p>
                 </div>
               </div>
             </div>

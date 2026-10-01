@@ -22,7 +22,7 @@ export default function Footer() {
               <p className="text-[#E2ECE5]">
                 Penrith &amp; Lower Blue Mountains
                 <br />
-                Glenmore Park &amp; Western Sydney
+                Western Sydney &amp; South Western Sydney &amp; Eastern Sydney
               </p>
 
               <p>
