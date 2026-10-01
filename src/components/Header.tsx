@@ -25,7 +25,7 @@ export default function Header() {
           <div className="flex items-center gap-6">
             <span className="flex items-center gap-1.5 text-[#E4EDE7]">
               <ShieldCheck className="w-3.5 h-3.5 text-[#8DA792]" />
-              NP4 Building Pty Ltd • NSW Lic #336447C
+              NP4 Building Pty Ltd • NSW Lic #336447C • ABN: 79 676 281 799
             </span>
             <span className="hidden md:inline text-[#B5CCC0]">
               Penrith &amp; Western Sydney&apos;s Kitchen &amp; Bathroom Specialists
@@ -33,11 +33,11 @@ export default function Header() {
           </div>
           <div className="flex items-center gap-5">
             <a
-              href="mailto:info@penrithrenovations.com.au"
+              href="mailto:NP4BUILDING@gmail.com"
               className="hidden sm:flex items-center gap-1.5 hover:text-white transition-colors"
             >
               <Mail className="w-3.5 h-3.5 text-[#8DA792]" />
-              info@penrithrenovations.com.au
+              NP4BUILDING@gmail.com
             </a>
             <a
               href="tel:0497985592"
@@ -64,8 +64,8 @@ export default function Header() {
       {/* Main navigation bar - Warm Organic Cream with Glassmorphism */}
       <nav
         className={`transition-all duration-300 ${isScrolled
-            ? "bg-[#FAF7F2]/95 backdrop-blur-md shadow-sm py-3 border-b border-[#E5DFD5]"
-            : "bg-[#FAF7F2]/90 backdrop-blur-sm py-4 border-b border-[#EAE4DA]"
+          ? "bg-[#FAF7F2]/95 backdrop-blur-md shadow-sm py-3 border-b border-[#E5DFD5]"
+          : "bg-[#FAF7F2]/90 backdrop-blur-sm py-4 border-b border-[#EAE4DA]"
           }`}
       >
         <div className="max-w-7xl mx-auto px-4 sm:px-8 flex items-center justify-between">

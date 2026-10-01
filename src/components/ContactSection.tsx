@@ -103,10 +103,10 @@ export default function ContactSection() {
                     Email Inquiries
                   </span>
                   <a
-                    href="mailto:info@penrithrenovations.com.au"
+                    href="mailto:NP4BUILDING@gmail.com"
                     className="text-sm font-semibold text-[#183324] hover:text-[#4F775D] transition-colors"
                   >
-                    info@penrithrenovations.com.au
+                    NP4BUILDING@gmail.com
                   </a>
                 </div>
               </div>

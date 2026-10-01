@@ -37,11 +37,11 @@ export default function Footer() {
 
               <p>
                 <a
-                  href="mailto:info@penrithrenovations.com.au"
+                  href="mailto:NP4BUILDING@gmail.com"
                   className="text-[#D2E2D7] hover:text-white transition-colors flex items-center gap-2"
                 >
                   <Mail className="w-4 h-4 text-[#8DA792]" />
-                  info@penrithrenovations.com.au
+                  NP4BUILDING@gmail.com
                 </a>
               </p>
 
