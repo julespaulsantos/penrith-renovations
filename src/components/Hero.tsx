@@ -134,7 +134,7 @@ export default function Hero() {
             <div className="flex items-center gap-2.5 text-[#2C4033]">
               <Award className="w-5 h-5 text-[#4F775D] shrink-0" />
               <div>
-                <div className="text-xs font-bold text-[#183324] uppercase tracking-wider">10-Yr Waterproofing</div>
+                <div className="text-xs font-bold text-[#183324] uppercase tracking-wider">5-Yr Waterproofing</div>
                 <div className="text-[10px] sm:text-[11px] text-[#5A7363]">AS 3740 Dual-Layer Certified</div>
               </div>
             </div>
