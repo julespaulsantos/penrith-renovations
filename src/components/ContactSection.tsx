@@ -10,7 +10,7 @@ export default function ContactSection() {
     phone: "",
     suburb: "",
     service: "kitchen-renovations",
-    budget: "$50k - $100k",
+    budget: "$15k - $50k",
     timeframe: "1-3 months",
     message: "",
   });
