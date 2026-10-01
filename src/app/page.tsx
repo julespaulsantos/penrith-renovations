@@ -42,7 +42,7 @@ export default function HomePage() {
       {/* <CostEstimator /> */}
 
       {/* 9. Verified Client Testimonials */}
-      <Testimonials />
+      {/* <Testimonials /> */}
 
       {/* 10. Consultation Request & Contact Form */}
       <ContactSection />
