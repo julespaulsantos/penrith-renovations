@@ -68,14 +68,9 @@ export default function RootLayout({
       longitude: 150.6942,
     },
     areaServed: [
-      "Penrith",
-      "Glenmore Park",
-      "Jordan Springs",
-      "Jamisontown",
-      "Emu Plains",
-      "Leonay",
-      "Mulgoa",
       "Western Sydney",
+      "South Western Sydney",
+      "Eastern Sydney",
     ],
     url: "https://penrithrenovations.com.au",
   };

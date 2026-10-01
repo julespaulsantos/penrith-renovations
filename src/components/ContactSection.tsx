@@ -120,7 +120,7 @@ export default function ContactSection() {
                     Service Region
                   </span>
                   <p className="text-sm text-[#22352a] font-medium">
-                    Penrith, Glenmore Park, Jordan Springs, Jamisontown, Emu Plains &amp; Lower Blue Mountains
+                    Western Sydney, South Western Sydney, Eastern Sydney
                   </p>
                 </div>
               </div>
