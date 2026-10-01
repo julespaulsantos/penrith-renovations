@@ -20,8 +20,6 @@ export default function Footer() {
 
             <div className="space-y-3 text-sm">
               <p className="text-[#E2ECE5]">
-                Penrith &amp; Lower Blue Mountains
-                <br />
                 Western Sydney &amp; South Western Sydney &amp; Eastern Sydney
               </p>
 
